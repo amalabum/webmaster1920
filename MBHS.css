@@ -9,7 +9,10 @@ body{
   /*padding-bottom: 70px;*/
   margin:0px;
 }
-
+#top{
+  background-color: #000749;
+  margin:0px;
+}
 #section1{
   background: url("../webmaster1819/pics/McKinney-Boyd.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -17,6 +20,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
   background-size: cover;
+  background-color: #000749;
   height: 100%;
 }
 #half{
@@ -31,6 +35,7 @@ body{
   }
   #MBHS{
     padding-top: 4em;
+
   }
 }
 
@@ -58,6 +63,7 @@ header{
   color: #000749;
   padding-left: 4em;
   margin:0px;
+
 }
 .fullScreen{
   box-sizing: border-box;

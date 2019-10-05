@@ -7,7 +7,7 @@ nav{
   padding:15px;
   background-color: white;
   box-sizing: border-box;
-  height:10vh;
+  height:11.5vh;
   width: 100%;
   z-index: 1000;
   background-color: #000749;
@@ -29,3 +29,8 @@ nav li a{
 nav li a:hover{
   text-decoration: underline;
 }
+.underHeader{
+  font-size: 2rem;
+  color: #000749;
+  padding-left: 4em;
+  margin:0px;
