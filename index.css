@@ -37,7 +37,14 @@ body{
   font-variant:small-caps;
   text-align:center;
   letter-spacing: 1.5;
-  padding: 10;
+  padding: 20;
+}
+#writing{
+  margin: 20;
+  text-align: justify;
+  height: 78.5%;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18;
 }
 #half{
   background-color: rgba(0, 0, 255, 0.5);
@@ -57,7 +64,7 @@ body{
     color: darkblue;
     font-variant:small-caps;
     text-align:center;
-    font-weight:bold;
+    font-weight: 800;
     padding:15px 0px 15px 0px;
     size: 85%;
   }
