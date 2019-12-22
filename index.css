@@ -1,0 +1,90 @@
+@import "topMenu.css";
+html{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: white;
+}
+body{
+  margin:0px;
+  /*Fading effect for when home page loads*/
+  animation: fadeInAnimation ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+@keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+#section1{
+  background: url("../webmaster1920/pics/McKinney-Boyd.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+#transition
+{
+  background-color: rgba(230, 230, 230, 0.5);
+  margin: 0px;
+  font-size: 40;
+  font-family: 'Josefin Sans', sans-serif;
+  font-variant:small-caps;
+  text-align:center;
+  letter-spacing: 1.5;
+  padding: 10;
+}
+#half{
+  background-color: rgba(0, 0, 255, 0.5);
+  margin: 0px;
+  font-size: 10;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+  #half{
+    width: 43%;
+    height: 100%;
+  }
+  #pic{
+    font-family: 'Montserrat', sans-serif;;
+    font-size:75px;
+    color: darkblue;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight:bold;
+    padding:15px 0px 15px 0px;
+    size: 85%;
+  }
+}
+
+@media screen and (max-width: 801px){
+  #half{
+    height: 50vh;
+  }
+  #pic{
+    padding-bottom:3em;
+    size: 85%;
+  }
+}
+header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 500;
+  color: white;
+  text-align: center;
+  margin:0px;
+  padding-left: .5em;
+  padding-right:.5em;
+  padding-top: .5em;
+  padding-bottom: 3.5em;
+}
+
+.fullScreen{
+  box-sizing: border-box;
+  height: 100vh;
+}
