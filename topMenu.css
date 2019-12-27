@@ -1,25 +1,26 @@
 html{
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.6;
-  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
 }
 body{
   /*padding-bottom: 70px;*/
   margin:0px;
+  letter-spacing: 1.5;
 }
 .topnav {
   overflow:visible;
-  background-color: rgb(6, 6, 121, 0);
+  letter-spacing: 1.5;
+  font-family: 'Oswald', sans-serif;
 }
 
 .topnav a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .topnav a.active {

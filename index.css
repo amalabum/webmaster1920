@@ -4,14 +4,15 @@ html{
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
   background-color: white;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-align: center;
 }
 body{
   margin:0px;
   /*Fading effect for when home page loads*/
-  animation: fadeInAnimation ease 2.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  text-align: center;
+
 }
 @keyframes fadeInAnimation {
     0% {
@@ -35,16 +36,17 @@ body{
   font-variant:small-caps;
   text-align:center;
   letter-spacing: 1.5;
-  padding: 10;
-  padding-top: 30;
+  padding: 20;
+  padding-top: 40;
 }
 #writing{
   text-align: justify;
-  height: 82%;
-  margin-left: 20%;
-  margin-right: 20%;
-  font-family: 'Heebo', sans-serif;
-  font-size: 18;
+  height: 100%;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-bottom: 11%;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16.5;
 }
 @media screen and (min-width: 800px) {
   #writing{
