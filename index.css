@@ -30,33 +30,25 @@ body{
 }
 #transition
 {
-  background-color: rgba(230, 230, 230, 0.5);
-  margin: 0px;
   font-size: 40;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;;
   font-variant:small-caps;
   text-align:center;
   letter-spacing: 1.5;
-  padding: 20;
+  padding: 10;
+  padding-top: 30;
 }
 #writing{
-  margin: 20;
   text-align: justify;
-  height: 78.5%;
+  height: 82%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-family: 'Heebo', sans-serif;
   font-size: 18;
 }
-#half{
-  background-color: rgba(0, 0, 255, 0.5);
-  margin: 0px;
-  font-size: 10;
-  font-family: 'Montserrat', sans-serif;
-}
-
 @media screen and (min-width: 800px) {
-  #half{
-    width: 43%;
-    height: 100%;
+  #writing{
+    height: 78%;
   }
   #pic{
     font-family: 'Montserrat', sans-serif;;
@@ -71,7 +63,7 @@ body{
 }
 
 @media screen and (max-width: 801px){
-  #half{
+  #writing{
     height: 50vh;
   }
   #pic{
