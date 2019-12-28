@@ -16,7 +16,7 @@ body{
 
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,5 +25,5 @@ body{
 
 .topnav a.active {
   /*background-color: #ffff99;*/
-  color: #ffff99;
+  color: black;
 }
