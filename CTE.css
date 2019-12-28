@@ -1,0 +1,8 @@
+@import "index.css";
+#section1{
+  background: url("../webmaster1920/pics/pic2.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
