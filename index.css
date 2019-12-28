@@ -29,11 +29,11 @@ body{
   background-attachment: fixed;
   height: 100%;
 }
-#transition
+.transition
 {
   font-size: 40;
   font-family: 'Montserrat', sans-serif;;
-  font-variant:small-caps;
+  /* font-variant:small-caps; */
   text-align:center;
   letter-spacing: 1.5;
   padding: 20;
