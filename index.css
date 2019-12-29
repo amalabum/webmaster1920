@@ -57,14 +57,13 @@ body{
 #writingpic{
   background: url("../webmaster1920/pics/new-pic2.png") no-repeat center center;
   background-size: cover;
-  min-height: 500px;
   background-attachment: local;
 }
 #writing{
   height: 100%;
   text-align: justify;
   margin-left: 45%;
-  margin-right: 8%;
+  margin-right: 5%;
   padding-bottom: 11%;
   font-family: 'Montserrat', sans-serif;;
   font-size: 16;
