@@ -22,6 +22,21 @@ body{
       opacity: 1;
     }
 }
+.trans{
+  background-color: rgb(242, 242, 242);
+  padding: 40;
+  padding-bottom: 60;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16.5;
+}
+.transTitle{
+  font-size: 40;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  letter-spacing: 1.5;
+  padding-top: 20;
+}
 #section1{
   background: url("../webmaster1920/pics/McKinney-Boyd.jpg") no-repeat center center;
   background-size: cover;
@@ -39,14 +54,25 @@ body{
   padding: 20;
   padding-top: 40;
 }
+#writingpic{
+  background: url("../webmaster1920/pics/new-pic2.png") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: local;
+}
 #writing{
-  text-align: justify;
   height: 100%;
-  margin-left: 14%;
-  margin-right: 14%;
+  text-align: justify;
+  margin-left: 45%;
+  margin-right: 8%;
   padding-bottom: 11%;
   font-family: 'Montserrat', sans-serif;;
-  font-size: 16.5;
+  font-size: 16;
+}
+#side{
+  width: 25%;
+  height:100%;
+  background-color: rgb(102, 26, 0,.5);
 }
 @media screen and (min-width: 800px) {
   #writing{
@@ -65,9 +91,7 @@ body{
 }
 
 @media screen and (max-width: 801px){
-  #writing{
-    height: 50vh;
-  }
+
   #pic{
     padding-bottom:3em;
     size: 85%;

@@ -12,10 +12,11 @@ body{
   overflow:visible;
   letter-spacing: 1.5;
   font-family: 'Oswald', sans-serif;
+  text-align: right;
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: white;
   text-align: center;
   padding: 14px 16px;
