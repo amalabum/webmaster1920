@@ -1,4 +1,5 @@
 @import "topMenu.css";
+@import "footer.css";
 html{
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -24,8 +25,8 @@ body{
 }
 .trans{
   background-color: rgb(242, 242, 242);
-  padding: 40;
-  padding-bottom: 60;
+  padding: 15;
+  padding-bottom: 45;
   margin: 0;
   font-family: 'Montserrat', sans-serif;;
   font-size: 16.5;
@@ -53,6 +54,39 @@ body{
   letter-spacing: 1.5;
   padding: 20;
   padding-top: 40;
+}
+.cte-centered {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
+  font-size:35px;
+  color: red;
+  font-weight: bold;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tsa-centered {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  top: 160%;
+  left: 16.5%;
+  transform: translate(-50%, -50%);
+}
+.cao-centered {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  top: 160%;
+  left: 83.5%;
+  transform: translate(-50%, -50%);
 }
 #writingpic{
   background: url("../webmaster1920/pics/new-pic2.png") no-repeat center center;
