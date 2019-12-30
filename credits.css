@@ -1,0 +1,24 @@
+@import "index.css";
+.cred{
+  text-align: center;
+  padding-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16;
+}
+#section1{
+  /* picture of us bowing */
+  background: url("../webmaster1920/pics/McKinney-Boyd.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+.transTitle{
+  font-size: 40;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  letter-spacing: 1.5;
+  padding-top: 1;
+}

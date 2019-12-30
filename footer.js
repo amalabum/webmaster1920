@@ -1,3 +1,3 @@
 document.getElementsByTagName("FOOTER")[0].innerHTML = "Call Us: (469) 302-3400 "+
 "<br>600 N. Lake Forest Dr., McKinney, TX 75071 <br> <a href=index.html>SLeeK Website </a>"+
- "<br><a href=Band/credits.html>Credits</a>";
+ "<br><a href=credits.html>Credits</a>";
