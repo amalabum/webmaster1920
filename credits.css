@@ -9,7 +9,7 @@
 }
 #section1{
   /* picture of us bowing */
-  background: url("../webmaster1920/pics/McKinney-Boyd.jpg") no-repeat center center;
+  background: url("pics/McKinney-Boyd.jpg") no-repeat center center;
   background-size: cover;
   min-height: 500px;
   background-attachment: fixed;
