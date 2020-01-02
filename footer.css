@@ -20,7 +20,8 @@ footer{
   margin-bottom: 0px;
   text-align: center;
   font-weight: normal;
-
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 footer a{
