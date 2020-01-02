@@ -1,6 +1,6 @@
 @import "index.css";
 #section1{
-  background: url("../webmaster1920/pics/hour-of-code.png") no-repeat center center;
+  background: url("pics/hour-of-code.png") no-repeat center center;
   background-size: cover;
   min-height: 500px;
   background-attachment: fixed;

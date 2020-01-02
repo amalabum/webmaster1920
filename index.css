@@ -39,7 +39,7 @@ body{
   padding-top: 20;
 }
 #section1{
-  background: url("../webmaster1920/pics/McKinney-Boyd.jpg") no-repeat center center;
+  background: url("pics/McKinney-Boyd.jpg") no-repeat center center;
   background-size: cover;
   min-height: 500px;
   background-attachment: fixed;
@@ -89,7 +89,7 @@ body{
   transform: translate(-50%, -50%);
 }
 #writingpic{
-  background: url("../webmaster1920/pics/new-pic2.png") no-repeat center center;
+  background: url("pics/new-pic2.png") no-repeat center center;
   background-size: cover;
   background-attachment: local;
 }
