@@ -8,18 +8,19 @@
 }
 #Motto{
   text-align: center;
+  padding-bottom: 20;
 }
 
 #TSA-table{
   width: 100%;
   height: 100%;
+  color: white;
 }
 #writing{
   height: 100%;
   text-align: justify;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-bottom: 11%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: 'Montserrat', sans-serif;;
   font-size: 16;
 }
@@ -32,8 +33,39 @@
   letter-spacing: 1.5;
   padding: 10;
 }
-
-.table-elem{
+table {
   padding: 20;
+  width: 100%;
+}
+#writing1{
+  height: 100%;
+  padding: 50;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16;
+  color: white;
+  background-color:#00004d;
+}
+#writing2{
+  height: 100%;
+  padding: 50;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16;
+  color: white;
+  background-color:#28004d;
+}
+#writing3{
+  height: 100%;
+  padding: 50;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16;
+  color: white;
+  background-color:#4d1300;
+}
+.table-elem{
   width: 50%;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  border-spacing: 0em 0em;
 }
