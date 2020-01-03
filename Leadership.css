@@ -1,0 +1,10 @@
+@import "index.css";
+html{
+
+}
+header{
+  padding-top: 15%;
+  font-size: 200;
+  color: skyblue;
+  line-height: 0;
+}
