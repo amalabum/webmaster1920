@@ -66,6 +66,8 @@ section span {
 }
 table {
   padding: 20;
+  padding-top:0;
+  margin-top: 0;
   width: 100%;
 }
 #writing1{
@@ -95,8 +97,17 @@ table {
   color: white;
   background-color:#660000;
 }
+#chapWriting
+{
+  background-color: gray;
+  width: 40%;
+  height:70%;
+  margin-bottom: 3%;
+
+}
 .table-elem{
   width: 50%;
   padding: 0.75em 0.75em 0.75em 0.75em;
+  border: none;
   border-spacing: 0em 0em;
 }
