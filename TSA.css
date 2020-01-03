@@ -22,13 +22,13 @@ section span {
 #tt{
   display: inline-flex;
   font-family: 'Oswald', sans-serif;
-  font-size: 500;
+  font-size: 470;
   color: #00004d;
   text-align: center;
-  margin:0px;
-  padding-right:.5em;
-  padding-left:.5em;
-  padding-top: 0.65em;
+  margin: 0px;
+  padding-right: .5em;
+  padding-left: .5em;
+  margin-top: 0.735em;
   padding-bottom:0;
   size:70%;
   line-height: 0;
