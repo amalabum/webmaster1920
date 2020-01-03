@@ -2,30 +2,37 @@
 #section1{
   background: url("../webmaster1920/pics/hour-of-code.png") no-repeat center center;
   background-size: cover;
-  min-height: 500px;
   background-attachment: fixed;
-  height: 70%;
+  height: 60%;
   margin: 0;
   padding: 0;
 }
 #Motto{
   text-align: center;
   padding-bottom: 20;
+  background-color: #660000;
+  color: white;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16;
 }
 section span {
-    background-color: rgb(153, 204, 255, .5);
+  display: inline-flex;
+  background-color: rgb(153, 204, 255, .5);
 }
 #tt{
+  display: inline-flex;
   font-family: 'Oswald', sans-serif;
-  font-size: 450;
-  color: white;
+  font-size: 500;
+  color: #00004d;
   text-align: center;
   margin:0px;
   padding-right:.5em;
-  padding-top: 0;
+  padding-left:.5em;
+  padding-top: 0.65em;
   padding-bottom:0;
   size:70%;
-  line-height: .7;
+  line-height: 0;
+  letter-spacing: 1.5;
 }
 
 #TSA-table{
@@ -79,7 +86,7 @@ table {
   font-family: 'Montserrat', sans-serif;;
   font-size: 16;
   color: white;
-  background-color:#4d1300;
+  background-color:#660000;
 }
 .table-elem{
   width: 50%;
