@@ -27,3 +27,59 @@ body{
   /*background-color: #ffff99;*/
   color: black;
 }
+
+.dropdown {
+  float: right;
+  overflow: visible;
+  letter-spacing: 1.5;
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  letter-spacing: 1.5;
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(242, 242, 242, .5);
+}
+
+.dropdown-content {
+  font-family: 'Oswald', sans-serif;
+  size: inherit;
+  float: left;
+  display: none;
+  position: absolute;
+  background-color: rgb(249, 249, 249,.5);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  font-family: 'Oswald', sans-serif;
+  size: inherit;
+  font-family: 'Oswald', sans-serif;
+  size: inherit;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(221, 221, 221, .5);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  float: left;
+
+}
