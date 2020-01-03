@@ -1,4 +1,10 @@
 @import "index.css";
+html{
+  width: 100%;
+}
+body{
+  width: 100%;
+}
 #section1{
   background: url("../webmaster1920/pics/hour-of-code.png") no-repeat center center;
   background-size: cover;
@@ -6,6 +12,7 @@
   height: 60%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 #Motto{
   text-align: center;
