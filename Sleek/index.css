@@ -1,0 +1,147 @@
+@import "../topMenu.css";
+@import "../footer.css";
+
+html{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+body{
+  margin:0px;
+  /*Fading effect for when home page loads*/
+}
+@keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+.trans{
+  background-color: rgb(242, 242, 242);
+  padding: 15;
+  padding-bottom: 45;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16.5;
+}
+.transTitle{
+  font-size: 40;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  letter-spacing: 1.5;
+  padding-top: 20;
+}
+#section1{
+  background: url("../pics/copyrighted-car.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+.transition
+{
+  font-size: 40;
+  font-family: 'Montserrat', sans-serif;;
+  /* font-variant:small-caps; */
+  text-align:center;
+  letter-spacing: 1.5;
+  padding: 20;
+  padding-top: 30;
+}
+.cte-centered {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
+  font-size:35px;
+  color: red;
+  font-weight: bold;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tsa-centered {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  top: 160%;
+  left: 16.5%;
+  transform: translate(-50%, -50%);
+}
+.cao-centered {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  top: 160%;
+  left: 83.5%;
+  transform: translate(-50%, -50%);
+}
+#writingpic{
+  background: url("pics/new-pic2.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: local;
+}
+#writing{
+  height: 100%;
+  text-align: justify;
+  margin-left: 45%;
+  margin-right: 5%;
+  padding-bottom: 11%;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 16;
+}
+#side{ //for red strip-picture thing
+  width: 25%;
+  height:100%;
+  background-color: rgb(102, 26, 0,.5);
+}
+@media screen and (min-width: 800px) {
+  #writing{
+    height: 78%;
+  }
+  #pic{
+    font-family: 'Montserrat', sans-serif;;
+    font-size:75px;
+    color: darkblue;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight: 800;
+    padding:15px 0px 15px 0px;
+    size: 85%;
+  }
+}
+
+@media screen and (max-width: 801px){
+  #pic{
+    padding-bottom:3em;
+    size: 85%;
+  }
+}
+header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 500;
+  color: white;
+  text-align: center;
+  margin:0px;
+  padding-left: .5em;
+  padding-right:.5em;
+  padding-top: .5em;
+  padding-bottom: 3.5em;
+}
+
+.fullScreen{
+  box-sizing: border-box;
+  height: 100%;
+}
