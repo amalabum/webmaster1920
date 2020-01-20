@@ -23,21 +23,7 @@ body{
       opacity: 1;
     }
 }
-.trans{
-  background-color: rgb(242, 242, 242);
-  padding: 15;
-  padding-bottom: 45;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;;
-  font-size: 16.5;
-}
-.transTitle{
-  font-size: 40;
-  font-family: 'Montserrat', sans-serif;
-  text-align:center;
-  letter-spacing: 1.5;
-  padding-top: 20;
-}
+
 #section1{
   background: url("../pics/copyrighted-car.jpg") no-repeat center center;
   background-size: cover;
@@ -45,68 +31,7 @@ body{
   background-attachment: fixed;
   height: 100%;
 }
-.transition
-{
-  font-size: 40;
-  font-family: 'Montserrat', sans-serif;;
-  /* font-variant:small-caps; */
-  text-align:center;
-  letter-spacing: 1.5;
-  padding: 20;
-  padding-top: 30;
-}
-.cte-centered {
-  position: absolute;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 1.5;
-  font-size:35px;
-  color: red;
-  font-weight: bold;
-  top: 160%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.tsa-centered {
-  position: absolute;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 1.5;
-  font-size: 35px;
-  color: red;
-  font-weight: bold;
-  top: 160%;
-  left: 16.5%;
-  transform: translate(-50%, -50%);
-}
-.cao-centered {
-  position: absolute;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 1.5;
-  font-size: 35px;
-  color: red;
-  font-weight: bold;
-  top: 160%;
-  left: 83.5%;
-  transform: translate(-50%, -50%);
-}
-#writingpic{
-  background: url("pics/new-pic2.png") no-repeat center center;
-  background-size: cover;
-  background-attachment: local;
-}
-#writing{
-  height: 100%;
-  text-align: justify;
-  margin-left: 45%;
-  margin-right: 5%;
-  padding-bottom: 11%;
-  font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
-}
-#side{ //for red strip-picture thing
-  width: 25%;
-  height:100%;
-  background-color: rgb(102, 26, 0,.5);
-}
+
 @media screen and (min-width: 800px) {
   #writing{
     height: 78%;
@@ -144,4 +69,14 @@ header{
 .fullScreen{
   box-sizing: border-box;
   height: 100%;
+}
+
+#title{
+   color: #abd2dc;
+   font-size: 15em;
+}
+
+#menu a{
+  text-decoration: none;
+  color: black;
 }
