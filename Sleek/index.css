@@ -24,7 +24,7 @@ body{
 }
 
 #section1{
-  background: url("../pics/copyrighted-car.jpg") no-repeat center center;
+  background: url("pics/newLogo.png") no-repeat center center;
   background-size: cover;
   min-height: 500px;
   background-attachment: fixed;

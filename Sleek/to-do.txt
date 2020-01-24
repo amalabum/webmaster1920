@@ -1,0 +1,24 @@
+Main Page
+
+Models
+	-Speed, mpw
+	-Customer review
+
+Order page
+	-Customization
+		-Colors, lether(fake)/jeans
+		-Battery size
+		-Prices for each customization
+	-Payment on checkout
+
+About us
+	-Reducing climate change
+
+Dealership
+	-Locate closest
+
+Contact us
+	-Phone
+	-Email
+
+
