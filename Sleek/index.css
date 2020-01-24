@@ -1,5 +1,3 @@
-@import "topMenu.css";
-@import "footer.css";
 
 html{
   box-sizing: border-box;
@@ -13,8 +11,8 @@ html{
 }
 body{
   margin:0px;
-  /*Fading effect for when home page loads*/
 }
+
 @keyframes fadeInAnimation {
     0% {
       opacity: 0;
