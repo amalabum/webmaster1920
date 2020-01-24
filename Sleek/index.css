@@ -1,5 +1,5 @@
-@import "../topMenu.css";
-@import "../footer.css";
+@import "topMenu.css";
+@import "footer.css";
 
 html{
   box-sizing: border-box;
@@ -25,7 +25,7 @@ body{
 }
 
 #section1{
-  background: url("pics/logo.png") no-repeat center center;
+  background: url("pics/newLogo.png") no-repeat center center;
   background-size: cover;
   min-height: 500px;
   background-attachment: fixed;
