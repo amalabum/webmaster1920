@@ -1,0 +1,82 @@
+@import "../topMenu.css";
+@import "../footer.css";
+
+html{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+body{
+  margin:0px;
+  /*Fading effect for when home page loads*/
+}
+@keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+#section1{
+  background: url("pics/newLogo.png") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  #writing{
+    height: 78%;
+  }
+  #pic{
+    font-family: 'Montserrat', sans-serif;;
+    font-size:75px;
+    color: darkblue;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight: 800;
+    padding:15px 0px 15px 0px;
+    size: 85%;
+  }
+}
+
+@media screen and (max-width: 801px){
+  #pic{
+    padding-bottom:3em;
+    size: 85%;
+  }
+}
+header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 500;
+  color: white;
+  text-align: center;
+  margin:0px;
+  padding-left: .5em;
+  padding-right:.5em;
+  padding-top: .5em;
+  padding-bottom: 3.5em;
+}
+
+.fullScreen{
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#title{
+   color: #abd2dc;
+   font-size: 15em;
+}
+
+#menu a{
+  text-decoration: none;
+  color: black;
+}
