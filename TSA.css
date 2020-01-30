@@ -97,6 +97,11 @@ table {
   color: white;
   background-color:#bf4040;
 }
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 #chapWriting
 {
   background-color: #00004d;
@@ -109,4 +114,44 @@ table {
   padding: 0.75em 0.75em 0.75em 0.75em;
   border: none;
   border-spacing: 0em 0em;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #334d99;
+}
+
+#writing1:hover .overlay1 {
+  opacity: 1;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #bf4040;
+}
+
+#writing3:hover .overlay2 {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+
+  text-align: center;
 }
