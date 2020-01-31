@@ -59,11 +59,12 @@ body{
   background: url("pics/new-pic2.png") no-repeat center center;
   background-size: cover;
   background-attachment: local;
+  height: 95%;
 }
 #writing{
   height: 100%;
   text-align: justify;
-  margin-left: 45%;
+  margin-left: 40%;
   margin-right: 5%;
   padding-bottom: 11%;
   font-family: 'Montserrat', sans-serif;;

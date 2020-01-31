@@ -12,7 +12,7 @@ footer{
   margin: 0px;
   /*background-color: #000749;*/
   background-color: 	#11113b;
-  position: relative;
+  /* position: static; */
   right: 0;
   bottom: 0;
   left: 0;
