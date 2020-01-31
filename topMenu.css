@@ -22,6 +22,10 @@ body{
   text-decoration: none;
   font-size: 22px;
 }
+.topnav a:hover{
+  color:white;
+  text-decoration: none;
+}
 
 .topnav a.active {
   /*background-color: #ffff99;*/
@@ -80,6 +84,8 @@ body{
 
 .dropdown-content a:hover {
   background-color: rgb(221, 221, 221, .5);
+  color: white;
+  text-decoration: none;
 }
 
 .dropdown:hover .dropdown-content {
