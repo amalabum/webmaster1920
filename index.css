@@ -146,11 +146,10 @@ td a{
   height: 100%;
   opacity: 1;
   visibility: visible;
-  z-index: -1;
 }
-.vis {
-  visibility: visible;
-  opacity: 1;
+td a:hover{
+  text-decoration: none;
+  color: red;
 }
 .index-tsa{
   background: url("pics/IMG_3231.jpg") center center no-repeat;
