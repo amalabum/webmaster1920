@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <link rel="import" href="footer2.css">
+<link rel="import" href="index.js">
+<script src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/js/index.js"></script>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +13,31 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
 
-  <body class="bg-dark" data-spy="scroll">
-    <nav class="navbar navbar-expand-sm m-1 sticky-top navbar-light justify-content-end ">
+  <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
+    <nav id="navbar" class="  navbg navbar navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active mx-2" href="https://inbarl.github.io/webmaster1819/Band/index.html">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/about.html">ABOUT</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/music.html">PRODUCTS</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/music.html">DEALERSHIPS</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/music.html">NEWS</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/shows.html">TSA</a>
+      <a class="nav-item nav-link active mx-1" href="https://inbarl.github.io/webmaster1819/Band/index.html">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/about.html">ABOUT</a>
+      <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/music.html">PRODUCTS</a>
+      <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/music.html">DEALERSHIPS</a>
+      <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/music.html">NEWS</a>
+      <a class="nav-item nav-link mx-1" href="https://inbarl.github.io/webmaster1819/Band/shows.html">TSA</a>
     </div>
   </div>
 </nav>
 
-<svg class="float-left">
-  <line x1="20" y1="20" x2="20" y2="130"></line>
+<div id="scrollLevel" width="20vw" class="mt-4 d-none d-sm-block float-left" style="">
+  <svg  class="float-left">
+    <line x1="20" y1="40vh" x2="20" y2="240" style="stroke:rgb(255,0,0);stroke-width:2"></line>
+  </svg>
+</div>
 
-</svg>
 
-
-  <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-5">
+  <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-4">
     <div class="d-none d-sm-block py-5 my-4"> </div>
 
       <div class="text-center  col-12 ">
@@ -46,9 +51,31 @@
       <div class="py-1 my-1 d-none d-xs-block"> </div>
       <div class="py-4 my-4 d-none d-sm-block"> </div>
 
-
   </div>
 
+<!--  <div id="downIcon" class="d-none d-sm-block bg-warning">
+    <svg   width="30" style="margin-left:auto; margin-right:auto; display:block;" >
+
+    </svg>
+  </div>
+-->
+<div id="section2" class="container-fluid bg-warning mt-5 py-5" style="height:110vh">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+<div id="section3" class="container-fluid  py-5" style="height:110vh">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+<div id="section4" class="container-fluid bg-primary  py-5" style="height:110vh">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
 
   <div id="mainSection" class="pb-4 ">
 <!--
@@ -76,6 +103,14 @@
 
 
     <style>
+
+    .navbg{
+      background-color: white;
+
+    }
+
+    #navbar{
+    }
 
         body{
          background: url('https://drive.google.com/uc?id=1lmNk7EkaRQQoFWnhcx6IrLWsHqOxH4-8') top right no-repeat fixed;
@@ -146,7 +181,7 @@
 
 
         a {
-          font-size: 20px;
+          font-size: 19px;
           animation-name:appear;
           animation-duration: 3s;
         }
@@ -204,7 +239,7 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
