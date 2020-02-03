@@ -1,10 +1,11 @@
 $(document).ready(function(){
   $(window).scroll(function() {
-    if ($(document).scrollTop() > 60) {
-        $("nav").addClass("navbg");
+    if ($(document).scrollTop() < 60) {
+     $("nav").removeClass("navbg");
 
     } else {
-        $("nav").removeClass("navbg");
+     $("nav").addClass("navbg");
+
     }
   });
 });
