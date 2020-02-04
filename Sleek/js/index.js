@@ -8,4 +8,10 @@ $(document).ready(function(){
 
     }
   });
+
+
+  $("#section2").hover(function(){
+    alert("You entered p1!");
+  });
+
 });
