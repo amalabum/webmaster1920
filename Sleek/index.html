@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <link rel="import" href="footer2.css">
+<link rel="import" href="index.js">
+<script src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/js/index.js"></script>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +13,38 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
 
-  <body class="bg-dark" data-spy="scroll">
-    <nav class="navbar navbar-expand-sm m-1 sticky-top navbar-light justify-content-end ">
+  <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
+    <nav id="navbar" class=" navbar navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active mx-2" href="https://inbarl.github.io/webmaster1819/Band/index.html">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/about.html">ABOUT</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/music.html">PRODUCTS</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/music.html">DEALERSHIPS</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/music.html">NEWS</a>
-      <a class="nav-item nav-link mx-2" href="https://inbarl.github.io/webmaster1819/Band/shows.html">TSA</a>
+      <a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link mx-1" href="">ABOUT</a>
+      <a class="nav-item nav-link mx-1" href="">VEHICLES</a>
+      <a class="nav-item nav-link mx-1" href="">DEALERSHIPS</a>
+      <a class="nav-item nav-link mx-1" href="">NEWS</a>
+      <a class="nav-item nav-link mx-1" href="">TSA</a>
     </div>
   </div>
 </nav>
+<!-- scroll spy level area, not exactly necessary
+<div id="scrollLevel" width="20vw" class=" mt-4 position-fixed d-none d-sm-block float-left" style="">
+  <svg  class="float-left">
+    <line x1="20" y1="40vh" x2="20" y2="240" style="stroke:rgb(255,0,0);stroke-width:2"></line>
+  </svg>
+</div>
 
-<svg class="float-left">
-  <line x1="20" y1="20" x2="20" y2="130"></line>
 
-</svg>
+  <div class="btn-group-vertical float-left position-fixed my-5 py-auto " role="group" aria-label="Basic example">
+    <button type="button" class="my-2 btn btn-secondary">Left</button>
+    <button type="button" class="my-2 btn btn-secondary">Middle</button>
+    <button type="button" class="my-2 btn btn-secondary">Right</button>
+  </div>
 
-
-  <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-5">
+-->
+  <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-4">
     <div class="d-none d-sm-block py-5 my-4"> </div>
 
       <div class="text-center  col-12 ">
@@ -46,39 +58,56 @@
       <div class="py-1 my-1 d-none d-xs-block"> </div>
       <div class="py-4 my-4 d-none d-sm-block"> </div>
 
-
   </div>
 
+<div id="section2" class="container-fluid bg-warning mt-5 py-5" style="height:115vh">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <img class="parallax" src="../pics/McKinney-Boyd.jpg" height="400px">
+</div>
+
+<div id="section3" class="container-fluid  py-5" style="height:115vh">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+<div id="section4" class="container-fluid bg-primary  py-5" style="height:115vh">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
 
   <div id="mainSection" class="pb-4 ">
-<!--
-    <div id="topnavigation" style = "position:relative;z-index:5;">
-      <div id="logo" style=" position:relative;z-index:10; bottom:-200px;left:15vw;"> <img src="https://drive.google.com/uc?id=1RGT2SB2PvZ8F6IivsduFP9bO3L-wcD9M" width="25%" height="25%" max-width="200px" max-height="200px"/> </div>
-    </div>
--->
     <div class="container-fluid p-5">
 
       <div class="col-lg-12  col-sm-12 mx-auto">
-
-
-        </div>
-
-
       </div>
-
+    </div>
     </div>
 
   </div>
-  <span id="footer" class="d-block p-2 bg-white">
-    <div id="fotoerSec" class="col-12 bg-transparent container row justify-content-center mx-auto">
+
+  <span id="footer" class="d-block p-4 bg-white">
+    <div class="mx-5">
+      LOGO
     </div>
   </span>
 
 
     <style>
 
+    .navbg{
+      background-color: white;
+
+    }
+
+    #navbar{
+    }
+
         body{
-         background: url('https://drive.google.com/uc?id=1lmNk7EkaRQQoFWnhcx6IrLWsHqOxH4-8') top right no-repeat fixed;
+         background: url('') top right no-repeat fixed;
           left: 0;
           background-position:center-top;
           background-repeat: no-repeat;
@@ -92,20 +121,11 @@
                 }
 
 
-        div.opac {
-            /*setting alpha = 0.8*/
-            background: rgba(5, 5, 5, .80);
-        }
         h3{
           background: none;
         }
-        div.fan{
-
-
-        }
 
         #mainSection{
-          background-image: url('https://drive.google.com/uc?id=1al-tA7idEdPK2nC5sitR91pD9dvZ-AvT');
           background-position: top;
           clip: content-box;
           background-size:contain;
@@ -146,7 +166,7 @@
 
 
         a {
-          font-size: 20px;
+          font-size: 19px;
           animation-name:appear;
           animation-duration: 3s;
         }
@@ -204,7 +224,7 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
