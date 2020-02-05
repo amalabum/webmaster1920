@@ -5,11 +5,15 @@ html{
 body{
   width: 100%;
 }
+.front{
+  height: 100%;
+  background-color: #660000;
+}
 #section1{
   background: url("pics/hour-of-code.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 60%;
+  height: 20%;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -20,26 +24,24 @@ body{
   background-color: #660000;
   color: white;
   font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
+  font-size: 1em;
 }
 section span {
   display: inline-flex;
   background-color: rgb(153, 204, 255, .5);
 }
 #tt{
-  display: inline-flex;
+  display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 470;
+  font-size: 29.375em;
   color: #00004d;
-  text-align: center;
-  margin: 0px;
-  padding-right: .5em;
-  padding-left: .5em;
-  margin-top: 0.735em;
+  /* text-align: center; */
+  margin: 0;
+  margin-top: 25%;
   padding-bottom:0;
   size:100%;
   line-height: 0;
-  letter-spacing: 1.5;
+  letter-spacing: 0.5;
 }
 
 #TSA-table{
@@ -53,11 +55,11 @@ section span {
   margin-left: 5%;
   margin-right: 5%;
   font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
+  font-size: 1.1em;
 }
 .transition1
 {
-  font-size: 40;
+  font-size: 2.75em;
   font-family: 'Montserrat', sans-serif;;
   /* font-variant:small-caps; */
   text-align:center;
@@ -75,25 +77,18 @@ table {
   padding: 50;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
+  font-size: .4em;
+  font-weight: normal;
   color: white;
   background-color:#334d99;
-}
-#writing2{
-  height: 100%;
-  padding: 50;
-  text-align: justify;
-  font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
-  color: white;
-  background-color:#bf4040;
 }
 #writing3{
   height: 100%;
   padding: 50;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
+  font-size: .4em;
+  font-weight: normal;
   color: white;
   background-color:#bf4040;
 }
@@ -108,10 +103,11 @@ table {
   width: 30%;
   height:95%;
   color: white;
+  font-weight: normal;
 }
 .table-elem{
   width: 50%;
-  padding: 0.75em 0.75em 0.75em 0.75em;
+  padding: 0em 0em 0.75em 0.75em;
   border: none;
   border-spacing: 0em 0em;
 }
@@ -149,7 +145,7 @@ table {
 }
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1.25em;
   top: 50%;
   left: 50%;
 
