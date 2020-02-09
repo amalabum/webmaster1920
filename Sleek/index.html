@@ -4,7 +4,7 @@
 
 <link rel="import" href="footer2.css">
 <link rel="import" href="index.js">
-<script src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/js/index.js"></script>
+<script src="js/index.js"></script>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,11 +60,16 @@
 
   </div>
 
-<div id="section2" class="container-fluid bg-warning mt-5 py-5" style="height:115vh">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <img class="parallax" src="../pics/McKinney-Boyd.jpg" height="400px">
+<div id="section2" class="container-fluid bg-warning mt-5 py-5 parallax-container" style="height:115vh; width: 100vw; position:relative; display: block; overflow: auto">
+  <div id="section2-left" style="width: 50vw; float: left; display: inline-block">
+    <h1>Section 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+
+  <div id="section2-right" style="width: 45vw; float: right; display: inline-block; position: absolute">
+    <img id="parallax-child" src="../pics/McKinney-Boyd.jpg" style="position:absolute" width="600px">
+  </div>
 </div>
 
 <div id="section3" class="container-fluid  py-5" style="height:115vh">
