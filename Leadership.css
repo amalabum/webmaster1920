@@ -3,8 +3,9 @@ html{
 
 }
 header{
-  padding-top: 15%;
+  padding-top: 22%;
   font-size: 200;
   color: skyblue;
   line-height: 0;
+  display: block;
 }
