@@ -48,12 +48,12 @@ body{
 .transition
 {
   font-size: 40;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   /* font-variant:small-caps; */
   text-align:center;
   letter-spacing: 1.5;
-  padding: 20;
-  padding-top: 30;
+  padding: 8%;
+  padding-top: 7%;
 }
 #writingpic{
   background: url("pics/new-pic2.png") no-repeat center center;
