@@ -55,6 +55,29 @@ td{
   font-size: 16;
   padding-bottom: 5%;
 }
+table a{
+  text-align: justify;
+  color: black;
+  margin:0;
+  padding:0;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: .8em;
+  padding-bottom: 5%;
+  text-decoration: none;
+}
+table a:hover{
+  text-align: justify;
+  margin:0;
+  padding:0;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: .8em;
+  padding-bottom: 5%;
+  text-decoration: none;
+}
 .transition
 {
   font-size: 40;
