@@ -15,21 +15,21 @@ $(document).ready(function(){
      $("nav").addClass("navbg");
     }
 
-    var sec2 = $("#section2")[0];
-    var notSeen = true;
-    var secTop = 0;
-    var imageTop = 0;
-    if(checkVisible(sec2)){
-      if(notSeen){
-        secTop = $(document).scrollTop();
-        imageTop = secTop;
-        notSeen = false;
-      }
-      var image = $("#parallax-child")[0];
-      imageTop += ($(document).scrollTop() - secTop);
-      image.style.top = imageTop + "px";
-
-    }
+    // var sec2 = $("#section2")[0];
+    // var notSeen = true;
+    // var secTop = 0;
+    // var imageTop = 0;
+    // if(checkVisible(sec2)){
+    //   if(notSeen){
+    //     secTop = $(document).scrollTop();
+    //     imageTop = secTop;
+    //     notSeen = false;
+    //   }
+    //   var image = $("#parallax-child")[0];
+    //   imageTop += ($(document).scrollTop() - secTop);
+    //   image.style.top = imageTop + "px";
+    //
+    // }
 
   });
 
