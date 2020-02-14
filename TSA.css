@@ -35,10 +35,10 @@ section span {
   font-family: 'Oswald', sans-serif;
   font-size: 29.375em;
   color: #00004d;
-  /* text-align: center; */
+  text-align: center;
   margin: 0;
   margin-top: 25%;
-  padding-bottom:0;
+  margin-bottom: 0;
   size:100%;
   line-height: 0;
   letter-spacing: 0.5;
