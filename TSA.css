@@ -25,6 +25,8 @@ body{
   color: white;
   font-family: 'Montserrat', sans-serif;;
   font-size: 1em;
+  padding: 0;
+  margin: 0;
 }
 section span {
   display: inline-flex;
@@ -42,6 +44,7 @@ section span {
   size:100%;
   line-height: 0;
   letter-spacing: 0.5;
+  padding: 0;
 }
 
 #TSA-table{

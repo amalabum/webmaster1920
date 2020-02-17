@@ -40,10 +40,18 @@ td{
 }
 .table-elem{
   width: 26%;
-  height: 1%;
+  height: 5em;
   padding: 0em 0em 0em 0em;
   border: none;
   border-spacing: 0em 0em;
+}
+.table-elem1{
+  width: 26%;
+  height: 5em;
+  padding: 0em 0em 0em 0em;
+  border: none;
+  border-spacing: 0em 0em;
+  background-color: #00004d;
 }
 #writingg{
   text-align: justify;
