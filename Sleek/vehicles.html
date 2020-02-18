@@ -8,29 +8,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SLEEK VEHICLES</title>
+    <title>VEHICLES</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
 
-  <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
-    <nav id="navbar" class=" navbar navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
+  <body class="bg-light" data-spy="scroll" data-target=".scrollLevel">
+    <nav id="navbar" class=" bg-light navbar navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
+      <a class="navbar-brand ml-2 p-0 mx-auto mx-md-0" href="#">
+          <img src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/pics/PNG/logoAlone.png" style="width:110px"alt="">
+        </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link mx-1" href="">ABOUT</a>
-      <a class="nav-item nav-link mx-1" href="">VEHICLES</a>
-      <a class="nav-item nav-link mx-1" href="">DEALERSHIPS</a>
-      <a class="nav-item nav-link mx-1" href="">NEWS</a>
-      <a class="nav-item nav-link mx-1" href="">TSA</a>
+      <a class="nav-item nav-link mx-1 a" href="">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link mx-1 a" href="">ABOUT</a>
+      <a class="nav-item nav-link active mx-1 a" href="">VEHICLES</a>
+      <a class="nav-item nav-link mx-1 a" href="">DEALERSHIPS</a>
+      <a class="nav-item nav-link mx-1 a" href="">NEWS</a>
+      <a class="nav-item nav-link mx-1 a" href="">TSA</a>
     </div>
   </div>
 </nav>
 
 <div class="d-none d-md-block">
-  <div id="showcase" class="container-fluid bg-primary justify-content-center">
+  <div id="displayShow" class="container-fluid bg-primary justify-content-center " >
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -90,12 +93,36 @@
 -->
 
 
-  <div id="mainSection" class="pb-4 ">
-    <div class="container-fluid p-5">
+  <div id="vehicleSection" class="p-3 bg-warning ">
+      <div class="col-lg-11 bg-secondary m-2 p-3 mx-auto container row">
+        <ul class="nav nav-pills flex-column col-2">
+            <li class=" nav-item"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu3">Menu 3</a></li>
+          </ul>
 
-      <div class="col-lg-12  col-sm-12 mx-auto">
+          <div class="tab-content col">
+            <div id="start" class="tab-pane fade in active">
+              <h3>Our Vehicles</h3>
+              <p>We at SLEEK own electric versions of cars, trucks, and even mopeds! Learn more about them by pressing on the tabs.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+              <h3>Menu 1</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <h3>Menu 2</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+          </div>
       </div>
-    </div>
+
+
   </div>
 
   <span id="footer" class="d-block p-4 bg-white">
@@ -185,7 +212,7 @@
 
 
 
-        a {
+        .a {
           font-size: 19px;
           animation-name:appear;
           animation-duration: 3s;
