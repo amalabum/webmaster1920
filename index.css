@@ -6,7 +6,7 @@ html{
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
   background-color: white;
-  animation: fadeInAnimation ease 4s;
+  animation: fadeInAnimation ease 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   text-align: center;
