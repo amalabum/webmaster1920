@@ -14,7 +14,13 @@ $(document).ready(function(){
    } else {
      $("nav").addClass("navbg");
     }
-
+/*    This is for adding the logo at a certain point
+    if ($(document).scrollTop() < 120 ) {
+     $("nav").removeClass("navbg");
+    } else {
+     $("nav").addClass("navbg");
+      }
+*/
     // var sec2 = $("#section2")[0];
     // var notSeen = true;
     // var secTop = 0;
