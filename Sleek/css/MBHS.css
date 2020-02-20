@@ -1,0 +1,100 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+body{
+  /*padding-bottom: 70px;*/
+  margin:0px;
+}
+
+#section1{
+  background: url("../webmaster1819/pics/McKinney-Boyd.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#half{
+  background-color: rgba(201, 21, 21, 0.5);
+  margin: 0px;
+}
+
+@media screen and (min-width: 800px) {
+  #half{
+    width: 50%;
+    height: 100vh;
+  }
+  #MBHS{
+    padding-top: 4em;
+  }
+}
+
+@media screen and (max-width: 801px){
+  #half{
+    height: 50vh;
+  }
+  #MBHS{
+    padding-top:1em;
+    padding-bottom:1em;
+  }
+}
+header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  margin:0px;
+  padding-left: .5em;
+  padding-right:.5em;
+}
+
+.underHeader{
+  font-size: 2rem;
+  color: #000749;
+  padding-left: 4em;
+  margin:0px;
+}
+.fullScreen{
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+#section2{
+  background-color: #ffffff;
+  font-size: 1em;
+  padding: 2rem;
+}
+
+.sectionTitle{
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+  color: #8e1e00;
+
+}
+
+.sectionContent{
+  padding-top: 1rem;
+  padding-right: 50px;
+}
+
+.sectionContent .paragraph{
+  /*height: 100%*/
+  padding: 25px;
+  align: left;
+  vertical-align: middle;
+  height: 10rem;
+
+}
+
+.sectionContent .paragraph p{
+  vertical-align: middle;
+}
+
+.sectionContent .paragraph img{
+  height: 150px;
+  padding-right: 20px;
+  /*margin:px;*/
+}
