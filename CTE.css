@@ -8,8 +8,9 @@
 }
 header{
   padding-top: 22%;
-  font-size: 200;
-  color: #9fbedf;
+  /* font-family: 'Oswald', sans-serif; */
+  font-size: 29.375em;
+  color: #00004d;
   line-height: 0;
   display: block;
 }
