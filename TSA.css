@@ -1,4 +1,4 @@
-@import "index.css";
+@import "CTE.css";
 html{
   width: 100%;
 }
@@ -31,18 +31,6 @@ body{
 section span {
   display: inline-flex;
   background-color: rgb(153, 204, 255, .5);
-}
-#tt{
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 29.375em;
-  color: #00004d;
-  padding-top: 25%;
-  text-align: justify;
-  line-height: 0;
-  letter-spacing: 30%;
-  box-sizing: border-box;
-  height: 100%;
 }
 
 #TSA-table{
