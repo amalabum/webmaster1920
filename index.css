@@ -123,6 +123,10 @@ header{
 }
 #index-table a{
   opacity: 1;
+  text-shadow: .015em .015em white,
+  -.015em .015em white,
+  .015em -.015em white,
+  -.015em -.015em white;
 }
 td{
   width: 34%;
