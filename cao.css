@@ -7,3 +7,9 @@
   height: 100%;
   width: 100%;
 }
+table{
+  text-shadow: .015em .015em white,
+  -.015em .015em white,
+  .015em -.015em white,
+  -.015em -.015em white;
+}
