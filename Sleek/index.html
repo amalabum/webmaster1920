@@ -66,21 +66,24 @@
 
   </div>
 
-  <div id="section2a" class="container-fluid  justify-content-end row p-5 mt-5 bg-warning img-responsive " style="min-height:100vh; z-index: -2; position:absolute">
-    <img id="" class="col-6 img-fluid aniview" data-av-animation="fadeInDown" src="../pics/McKinney-Boyd.jpg" style="max-width:425px; max-height:375px" >
+  <div id="section2a" class="container-fluid  justify-content-end row p-5 mt-5 img-responsive bg-warning" style="min-height:100vh; z-index: -2; position:absolute">
+    <img id="" class="col-6 img-fluid secImg aniview" data-av-animation="fadeInDown" src="../pics/McKinney-Boyd.jpg" >
 
 </div>
 <div id="section2b" class="container-fluid justify-content-end pt-5 row" style="min-height:100vh; z-index: -1; position:absolute; margin-top: 35vh; padding-right: 23vw;">
-  <img id="" class="col-8 mr-5 img-fluid aniview smoothAni" data-av-animation="fadeInUp" src="pics/PNG/placeholder.png" style="max-width:425px; max-height:375px" >
+  <img id="" class="col-8 mr-5 img-fluid secImg aniview smoothAni" data-av-animation="fadeInUp" src="pics/PNG/placeholder.png"  >
 
 </div>
 
   <div id="section2" class="container-fluid  row p-5 mt-5 bg-none" style="min-height:100vh; z-index: 1">
-    <div class="container-fluid m-5 p-5 d-block d-md-none">
+    <div class="container-fluid m-5 p-5 d-block d-sm-none ">
       <br><br><br><br>
     </div>
-    <div class="aniview col-12 col-md-8 col-lg-6 m-1 p-0" data-av-animation="fadeIn">
+    <div class="aniview col-12 col-md-8 col-lg-6 m-1 " data-av-animation="fadeIn">
       <h1 class="my-3 smoothAni">Why Electric?</h1>
+      <div class="container-fluid m-5 p-5 d-none d-sm-block d-md-none">
+        <br><br><br><br>
+      </div>
       <div class="opac p-4 m-0 text-white">
       <p class="secText "><!--As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
       -->Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
@@ -141,19 +144,43 @@
               background: rgba(5, 5, 5, .80);
           }
 
+      /* Smallest Bootstrap Sizing and Up */
 
           @media (min-width: 0px) {
-        .secText {font-size:13px;} /*1rem = 16px*/
+        .secText {
+          font-size:13px;
+        }
+        .secImg {
+          padding-right: 0;
+
+          max-width: 300px;
+          max-height: 325px;
+        }
       }
 
-      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      @media (min-width: 330px; max-width: 768px) {
+    .secImg {
+      margin-top: 5vh;
+      max-width: 275px;
+      max-height: 300px;
+    }
+  }
+
+      /* Medium Bootstrap Sizing and Up */
       @media (min-width: 768px) {
-        .secText {font-size:16px;} /*1rem = 16px*/
+        .secText {
+          font-size:16px;
+        }
+        .secImg{
+          max-width:425px;
+          max-height:375px;
+        }
+
       }
 
-      /* Large devices (desktops, 992px and up) */
+      /* Large Bootstrap Sizing and Up */
       @media (min-width: 992px) {
-        .secText {font-size:18px;} /*1rem = 16px*/
+        .secText {font-size:18px;}
       }
 
     .container-fluid {
