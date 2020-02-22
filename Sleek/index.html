@@ -2,7 +2,6 @@
 <html lang="en">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,19 +22,19 @@
 
   <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
     <nav id="navbar" class=" navbar navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link mx-1" href="">ABOUT</a>
-          <a class="nav-item nav-link mx-1" href="">VEHICLES</a>
-          <a class="nav-item nav-link mx-1" href="">NEWS</a>
-          <a class="nav-item nav-link mx-1" href="">TSA</a>
-        </div>
-      </div>
-    </nav>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link mx-1" href="">ABOUT</a>
+      <a class="nav-item nav-link mx-1" href="">VEHICLES</a>
+      <a class="nav-item nav-link mx-1" href="">NEWS</a>
+      <a class="nav-item nav-link mx-1" href="">TSA</a>
+    </div>
+  </div>
+</nav>
 <!-- scroll spy level area, not exactly necessary
 <div id="scrollLevel" width="20vw" class=" mt-4 position-fixed d-none d-sm-block float-left" style="">
   <svg  class="float-left">
@@ -54,10 +53,10 @@
   <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-4">
     <div class="d-none d-sm-block py-5 my-4"> </div>
 
-      <div class="text-center col-12 ">
+      <div class="text-center  col-12 ">
         <h2 id="text" class=" my-2 char text"> <i>S L E E K</i> </h2>
       </div>
-      <div class="my-1 mx-auto col-md-12 ">
+      <div class="my-1 mx-auto  col-md-12 ">
         <h3 class="bg-transparent text-white p-3 text-center lead"> cool filler one liner</h3>
       </div>
       <div class="py-2 my-2 d-none d-sm-block"> </div>
@@ -67,45 +66,75 @@
 
   </div>
 
-<div id="section2" class="container-fluid row bg-warning mt-5 py-5 parallax-container" style="height:115vh; width: 100vw; position:relative; display: block; overflow: auto">
-  <div id="section2-left" class="col-5">
-    <h1>Why Electric?</h1>
-    <p>As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
-    Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
-    <p>In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
-    <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
-    an electric vehicle. Maintenance, too, is significantly cheaper for electric cars than more conventional vehicles - and our high-quality customer care will insure you get an
-    outstanding experience.</p>
-    <p>Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
-    electricity for your car, further cutting your costs.</p>
-    <p>So if you're still asking, "why electric?" Think again. The real question is "Why not?"</p>
-  </div>
+  <div id="section2a" class="container-fluid  justify-content-end row p-5 mt-5 img-responsive bg-warning" style="min-height:100vh; z-index: -2; position:absolute">
+    <img id="" class="col-6 img-fluid secImg aniview" data-av-animation="fadeInDown" src="../pics/McKinney-Boyd.jpg" >
 
-    <div class="aniview" data-av-animation="fadeInRight">
-      <div id="section2-right" class="col-5 float-right">
-        <img id="parallax-child" src="../pics/McKinney-Boyd.jpg" style="position:absolute" width="400px">
-      </div>
-    </div>
-  </div>
+</div>
+<div id="section2b" class="container-fluid justify-content-end pt-5 row" style="min-height:100vh; z-index: -1; position:absolute; margin-top: 35vh; padding-right: 23vw;">
+  <img id="" class="col-8 mr-5 img-fluid secImg aniview smoothAni" data-av-animation="fadeInUp" src="pics/PNG/placeholder.png"  >
 
-<div id="section3" class="container-fluid bg-light py-5" style="height:115vh">
-  <div class="aniview" data-av-animation="fadeInRight">
-    <h1>About Us</h1>
-    <p>Ever since we first learned about climate change, we have always felt the need to do something to fix it. For years we were unsure of what to do,
-    whether to become activists or politicians or entrepreneurs, until we suddenly realized electric vehicles' immense potential to change the world.</p>
-    <p>EVs were the future. That much was clear. But for millions of Americans, owning an electric vehicle was a goal out of reach due to how expensive
-    most of these cars were. Our goal, right then and there, was to build electric cars that would be affordable for the average American.</p>
-    <p>Years later, after much fundraising, development, and a lot of persistence, here we are today; a diverse group of long-time friends who bonded
-    over climate change, and who now own own of the biggest and most affordable electric vehicle companies in the world - Sleek.</p>
-  </div>
 </div>
 
-<div id="section4" class="container-fluid bg-primary  py-5" style="height:115vh">
-  <div class="aniview" data-av-animation="fadeInRight">
-    <h1>Section 3</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <div id="section2" class="container-fluid  row p-5 mt-5 bg-none" style="min-height:100vh; z-index: 1">
+    <div class="container-fluid m-5 p-5 d-block d-sm-none ">
+      <br><br><br><br>
+    </div>
+    <div class="aniview col-12 col-md-8 col-lg-6 m-1 " data-av-animation="fadeIn">
+      <h1 class="my-3 smoothAni">Why Electric?</h1>
+      <div class="container-fluid m-5 p-5 d-none d-sm-block d-md-none">
+        <br><br><br><br>
+      </div>
+      <div class="opac p-4 m-0 text-white">
+      <p class="secText "><!--As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
+      -->Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
+          <p class="secText">In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
+        <!-- <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
+          an electric vehicle. Maintenance, too, is significantly cheaper for electric cars than more conventional vehicles - and our high-quality customer care will insure you get an
+          outstanding experience.</p> -->
+          <p class="secText">Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
+          electricity for your car, further cutting your costs.</p>
+      </div>
+    </div>
+
   </div>
+
+
+  <div id="section3a" class="container-fluid  justify-content-start row p-5 mt-5 img-responsive bg-light" style="min-height:100vh; z-index: -2; position:absolute">
+    <img id="" class="col-6 img-fluid secImg aniview" data-av-animation="fadeInDown" src="../pics/McKinney-Boyd.jpg" >
+
+  </div>
+  <div id="section3b" class="container-fluid justify-content-start pt-5 row" style="min-height:100vh; z-index: -1; position:absolute; margin-top: 35vh; padding-left: 23vw;">
+  <img id="" class="col-8 mr-5 img-fluid secImg aniview smoothAni" data-av-animation="fadeInUp" src="pics/PNG/placeholder.png"  >
+
+  </div>
+
+  <div id="section3" class="container-fluid  row p-5 bg-none justify-content-end" style="min-height:100vh; z-index: 1">
+    <div class="container-fluid m-5 p-5 d-block d-sm-none ">
+      <br><br><br><br>
+    </div>
+    <div class="aniview col-12 col-md-8 col-lg-6 m-1 bg-primary" data-av-animation="fadeIn">
+      <h1 class="my-3 smoothAni">About Us</h1>
+      <div class="container-fluid m-5 p-5 d-none d-sm-block d-md-none">
+        <br><br><br><br>
+      </div>
+      <div class="opac p-4 m-0 text-white">
+      <p class="secText "><!--As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
+      -->Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
+          <p class="secText">In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
+        <!-- <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
+          an electric vehicle. Maintenance, too, is significantly cheaper for electric cars than more conventional vehicles - and our high-quality customer care will insure you get an
+          outstanding experience.</p> -->
+          <p class="secText">Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
+          electricity for your car, further cutting your costs.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+<div id="section4" class="container-fluid bg-primary p-5" style="height:100vh">
+  <h1 class="mb-3">Our Bestsellers (we can change this)</h1>
+  <p class="secText">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
 
 
@@ -129,6 +158,65 @@
 
 
     <style>
+
+    .smoothAni  {
+        animation-duration: 2s;
+    }
+
+    #section2{
+      background-image: url('');
+    }
+
+    .opac {
+              /*setting alpha = 0.8*/
+              background: rgba(5, 5, 5, .80);
+          }
+
+      /* Smallest Bootstrap Sizing and Up */
+
+          @media (min-width: 0px) {
+        .secText {
+          font-size:13px;
+        }
+        .secImg {
+          padding-right: 0;
+
+          max-width: 300px;
+          max-height: 325px;
+        }
+      }
+
+      @media (min-width: 330px; max-width: 768px) {
+    .secImg {
+      margin-top: 5vh;
+      max-width: 275px;
+      max-height: 300px;
+    }
+  }
+
+      /* Medium Bootstrap Sizing and Up */
+      @media (min-width: 768px) {
+        .secText {
+          font-size:16px;
+        }
+        .secImg{
+          max-width:425px;
+          max-height:375px;
+        }
+
+      }
+
+      /* Large Bootstrap Sizing and Up */
+      @media (min-width: 992px) {
+        .secText {font-size:18px;}
+      }
+
+    .container-fluid {
+        padding-right:0;
+        padding-left:0;
+        margin-right:auto;
+        margin-left:auto
+     }
 
     .navbg{
       background-color: white;
@@ -259,6 +347,7 @@
                 }
 
         </style>
+
 
 
 

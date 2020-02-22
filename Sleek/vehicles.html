@@ -10,6 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VEHICLES</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.aniview.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script>
+      $(document).ready(function(){
+        $('.aniview').AniView();
+      });
+    </script>
   </head>
 
   <body class="bg-light" data-spy="scroll" data-target=".scrollLevel">
@@ -92,10 +100,10 @@
 -->
 <h3 class="text-center pt-3">New Releases</h3>
 
-<div id="newVehicleSection" class="mx-auto py-4 justify-content-center col-12 container-fluid row bg-dark">
+<div id="newVehicleSection" class="mx-auto py-4 justify-content-center col-12 container-fluid row bg-dark aniview smoothAni" data-av-animation="fadeIn">
 
-<div class="card col mr-1 col-sm-5 col-md-3 col-lg-2 p-0 mx-md-4 text-center" >
-  <h5 class="card-title mt-3">Glow-ped 2020</h5>
+<div class="card col mr-1 col-sm-5 col-md-3 col-lg-2 p-0 mx-md-4 text-center " >
+  <h5 class="card-title mt-3 ">Glow-ped 2020</h5>
 
   <img class="card-img-top mx-auto" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:120px">
   <div class="card-body p-3">
@@ -126,7 +134,7 @@
         <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
       </ul>
 
-      <div class="col-12 col-md-11 col-lg-10 bg-light m-2 p-3 mx-auto container row overflow-auto" style="height:90vh">
+      <div class="col-12 col-md-11 col-lg-10 bg-light m-2 p-3 mx-auto container row overflow-auto aniview smoothAni" data-av-animation="fadeIn" style="height:90vh">
         <ul class="nav nav-pills flex-column col-3 col-md-2 col-lg-2 d-none d-md-block">
             <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
             <li class="nav-item btn-purp"><a class=" nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
@@ -140,7 +148,7 @@
               <h3 class="px-3">Our Vehicles</h3>
               <p class="px-3">We at SLEEK own electric versions of cars, trucks, and even mopeds! Learn more about them by pressing on the tabs.</p>
 
-<div id="vehicleCon" class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
+<div class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
 
               <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
                 <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
@@ -192,14 +200,107 @@
             <div id="carsSec" class="tab-pane fade m-2 px-3">
               <h3>Cars</h3>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+              </div>
+
             </div>
-            <div id="truckSec" class="tab-pane fade m-2 px-3">
-              <h3>Trucks</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            </div>
+
             <div id="bikesSec" class="tab-pane fade m-2 px-3">
               <h3>Bikes</h3>
               <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <div class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+              </div>
+
             </div>
           </div>
       </div>
@@ -226,6 +327,9 @@
 
 
     <style>
+    .smoothAni  {
+        animation-duration: 2s;
+    }
 
     .vehicleCon {
       height: 65vh;

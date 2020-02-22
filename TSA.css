@@ -1,4 +1,4 @@
-@import "index.css";
+@import "CTE.css";
 html{
   width: 100%;
 }
@@ -8,6 +8,15 @@ body{
 .front{
   height: 100%;
   background-color: #660000;
+}
+header{
+  padding-top: 22%;
+  /* font-family: 'Oswald', sans-serif; */
+  font-size: 20em;
+  color: #00004d;
+  line-height: 0;
+  display: block;
+  text-shadow: 0 0;
 }
 #section1{
   background: url("pics/hour-of-code.png") no-repeat center center;
@@ -31,18 +40,6 @@ body{
 section span {
   display: inline-flex;
   background-color: rgb(153, 204, 255, .5);
-}
-#tt{
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 29.375em;
-  color: #00004d;
-  padding-top: 25%;
-  text-align: justify;
-  line-height: 0;
-  letter-spacing: 30%;
-  box-sizing: border-box;
-  height: 100%;
 }
 
 #TSA-table{

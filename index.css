@@ -118,11 +118,15 @@ header{
   width: 100%;
   height: 85%;
   border-collapse: collapse;
-  background: url("pics/Studying.jpg") center center no-repeat;
+  background: url("pics/boyd drawing.png") center center no-repeat;
   background-size: cover;
 }
 #index-table a{
   opacity: 1;
+  text-shadow: .015em .015em white,
+  -.015em .015em white,
+  .015em -.015em white,
+  -.015em -.015em white;
 }
 td{
   width: 34%;

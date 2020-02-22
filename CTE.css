@@ -3,16 +3,20 @@
   background: url("pics/teamwork.png") no-repeat center center;
   background-size: cover;
   min-height: 500px;
-  background-attachment: local;
+  background-attachment: fixed;
   height: 100%;
 }
 header{
   padding-top: 22%;
   /* font-family: 'Oswald', sans-serif; */
-  font-size: 29.375em;
+  font-size: 20em;
   color: #00004d;
   line-height: 0;
   display: block;
+  text-shadow: .015em .015em white,
+  -.015em .015em white,
+  .015em -.015em white,
+  -.015em -.015em white;
 }
 #CTE-table {
   padding: 0;
