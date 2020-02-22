@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Credits</title>
+  <title>Clubs & Organizations</title>
   <link rel="stylesheet" href="cao.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Sleek/js/jquery.min.js"></script>
+  <script type="text/javascript" src="Sleek/js/jquery.aniview.js"></script>
+  <link rel="stylesheet" href="Sleek/css/animate.css">
+
   <div class="topnav">
     <span id="logo"><a href="index.html" style="float:left; font-size:30px;"><img src="pics/boyd-logo.png"
       style="width:10%; vertical-align: text-bottom;"><b> Mckinney Boyd High School</a></span>
@@ -36,29 +40,79 @@
           <a href="Leadership.html">Leadership</a>
         </div>
     </div>
-  </div></head>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+      $('.aniview').AniView();
+    });
+  </script>
+</head>
   <body>
     <section class="fullScreen" id="section1" style="padding-top: 15%;font-size:5em; color: #00004d; display:block;">
       <div>
       <section style="width:45%; text-align:left; padding-left:5%; display: inline-block;">
         Clubs and Organizations
       </section>
-      <table style="width:55%; float: right; vertical-align: middle;">
+      <table id="clubTable">
         <tr>
-          <td class="table-elem"> Pi Club
+          <td class="table-elem"><a href="#piclub"> Pi Club</a>
           </td>
-          <td class="table-elem"> Science Club
+          <td class="table-elem"><a href="#scienceclub"> Science Club</a>
           </td>
         </tr>
         <tr>
-          <td class="table-elem"> STEM Club
+          <td class="table-elem"><a href="#stemclub"> STEM Club</a>
           </td>
-          <td class="table-elem"> Pi Club
+          <td class="table-elem"><a href="#roboticsclub"> Robotics Club</a>
           </td>
         </tr>
       </table>
     </div>
     </section>
+
+    <section class="fullScreen clubSection" id="piclub">
+      <div class="clubSectionTitle">Pi Club</div>
+      <div class="clubSectionText aniview" data-av-animation="fadeInLeft">Pi Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material. Pi Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material.</div>
+
+      <div class="clubSectionText clubMeetingInfo aniview" data-av-animation="fadeInRight">Pi Club meets every Wednesday from 2:30 to 3:30 in room H207.</div>
+    </section>
+
+
+
+    <section class="fullScreen clubSection clubinblue" id="scienceclub">
+      <div class="clubSectionTitle">Science Club</div>
+      <div class="clubSectionText">This Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material. This Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material.</div>
+
+      <div class="clubSectionText clubMeetingInfo">This Club meets every Wednesday from 2:30 to 3:30 in room H207.</div>
+    </section>
+
+
+
+
+    <section class="fullScreen clubSection" id="stemclub">
+      <div class="clubSectionTitle">STEM Club</div>
+      <div class="clubSectionText">STEM Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material. STEM Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material.</div>
+
+      <div class="clubSectionText clubMeetingInfo">STEM Club meets every Wednesday from 2:30 to 3:30 in room H207.</div>
+    </section>
+
+
+    <section class="fullScreen clubSection clubinblue" id="roboticsclub">
+      <div class="clubSectionTitle">Robotics Club</div>
+      <div class="clubSectionText">This Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material. This Club is really cool and exciting. All members enjoy it. It is great.
+      You should join. This is some high quality material.</div>
+
+      <div class="clubSectionText clubMeetingInfo">This Club meets every Wednesday from 2:30 to 3:30 in room H207.</div>
+    </section>
+
       <footer>
         <script src="footer.js"></script>
       </footer>
