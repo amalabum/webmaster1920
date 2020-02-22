@@ -2,14 +2,22 @@
 <html lang="en">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<link rel="import" href="index.js">
-<script src="js/index.js"></script>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SLEEK</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="import" href="index.js">
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.aniview.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script>
+      $(document).ready(function(){
+        $('.aniview').AniView();
+      });
+    </script>
   </head>
 
   <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
@@ -58,33 +66,35 @@
 
   </div>
 
-  <div id="section2" class="container-fluid bg-warning row p-5 mt-5 " style="height:100vh">
-    <div class="aniview col-6" data-av-animation="fadeInRight">
-      <h1>Why Electric?</h1>
-      <p>As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
-          Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
-          <p>In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
-          <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
+  <div id="section2a" class="container-fluid  row p-5 mt-5 bg-warning" style="min-height:100vh; z-index: -1; position:absolute">
+</div>
+  <div id="section2" class="container-fluid  row p-5 mt-5 " style="min-height:100vh; z-index: 1">
+    <div class="aniview col-12 col-md-6 col-lg-6 " data-av-animation="fadeInRight">
+      <h1 class="mb-3">Why Electric?</h1>
+      <div class="opac p-4 text-white">
+      <p class="secText "><!--As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
+      -->Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
+          <p class="secText">In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
+        <!-- <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
           an electric vehicle. Maintenance, too, is significantly cheaper for electric cars than more conventional vehicles - and our high-quality customer care will insure you get an
-          outstanding experience.</p>
-          <p>Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
+          outstanding experience.</p> -->
+          <p class="secText">Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
           electricity for your car, further cutting your costs.</p>
+      </div>
     </div>
-    <img id="" class="col-6" src="../pics/McKinney-Boyd.jpg" style="" width="400px">
+    <img id="" class="col-6 img-responsive" src="../pics/McKinney-Boyd.jpg" style="max-width:400px; max-height:400px" >
 
   </div>
 
 
 <div id="section3" class="text-right bg-light container-fluid p-5" style="height:100vh">
-  <h1>About Us</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <h1 class="mb-3">About Us</h1>
+  <p class="secText">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
 
 <div id="section4" class="container-fluid bg-primary p-5" style="height:100vh">
-  <h1>Our Bestsellers</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <h1 class="mb-3">Our Bestsellers</h1>
+  <p class="secText">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
 
 
@@ -108,13 +118,25 @@
 
 
     <style>
+    #section2{
+      background-image: url('');
+    }
+
+    .opac {
+              /*setting alpha = 0.8*/
+              background: rgba(5, 5, 5, .80);
+          }
+
+    .secText{
+      font-size: 19px;
+    }
     .container-fluid {
         padding-right:0;
         padding-left:0;
         margin-right:auto;
         margin-left:auto
      }
-     
+
     .navbg{
       background-color: white;
 
@@ -247,8 +269,7 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
