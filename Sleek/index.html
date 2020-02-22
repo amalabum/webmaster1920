@@ -2,40 +2,31 @@
 <html lang="en">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
+<link rel="import" href="index.js">
+<script src="js/index.js"></script>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SLEEK</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="import" href="index.js">
-    <script src="js/index.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.aniview.js"></script>
-    <link rel="stylesheet" href="css/animate.css">
-    <script>
-      $(document).ready(function(){
-        $('.aniview').AniView();
-      });
-    </script>
   </head>
 
   <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
     <nav id="navbar" class=" navbar navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link mx-1" href="">ABOUT</a>
-          <a class="nav-item nav-link mx-1" href="">VEHICLES</a>
-          <a class="nav-item nav-link mx-1" href="">NEWS</a>
-          <a class="nav-item nav-link mx-1" href="">TSA</a>
-        </div>
-      </div>
-    </nav>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link mx-1" href="">ABOUT</a>
+      <a class="nav-item nav-link mx-1" href="">VEHICLES</a>
+      <a class="nav-item nav-link mx-1" href="">NEWS</a>
+      <a class="nav-item nav-link mx-1" href="">TSA</a>
+    </div>
+  </div>
+</nav>
 <!-- scroll spy level area, not exactly necessary
 <div id="scrollLevel" width="20vw" class=" mt-4 position-fixed d-none d-sm-block float-left" style="">
   <svg  class="float-left">
@@ -54,10 +45,10 @@
   <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-4">
     <div class="d-none d-sm-block py-5 my-4"> </div>
 
-      <div class="text-center col-12 ">
+      <div class="text-center  col-12 ">
         <h2 id="text" class=" my-2 char text"> <i>S L E E K</i> </h2>
       </div>
-      <div class="my-1 mx-auto col-md-12 ">
+      <div class="my-1 mx-auto  col-md-12 ">
         <h3 class="bg-transparent text-white p-3 text-center lead"> cool filler one liner</h3>
       </div>
       <div class="py-2 my-2 d-none d-sm-block"> </div>
@@ -67,42 +58,33 @@
 
   </div>
 
-<div id="section2" class="container-fluid row bg-warning mt-5 py-5 parallax-container" style="height:115vh; width: 100vw; position:relative; display: block; overflow: auto">
-  <div id="section2-left" class="col-5">
-    <h1>Why Electric?</h1>
-    <p>As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
-    Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
-    <p>In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
-    <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
-    an electric vehicle. Maintenance, too, is significantly cheaper for electric cars than more conventional vehicles - and our high-quality customer care will insure you get an
-    outstanding experience.</p>
-    <p>Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
-    electricity for your car, further cutting your costs.</p>
-    <p>So if you're still asking, "why electric?" Think again. The real question is "Why not?"</p>
-  </div>
-
-    <div class="aniview" data-av-animation="fadeInRight">
-      <div id="section2-right" class="col-5 float-right">
-        <img id="parallax-child" src="../pics/McKinney-Boyd.jpg" style="position:absolute" width="400px">
-      </div>
+  <div id="section2" class="container-fluid bg-warning row p-5 mt-5 " style="height:100vh">
+    <div class="aniview col-6" data-av-animation="fadeInRight">
+      <h1>Why Electric?</h1>
+      <p>As climate change and global warming threaten the habitability of our world, it is up to environtally-conscious citizens like you to rescuing the only planet we have.
+          Unlike conventional gas cars, electric vehicles emit far less greenhouse gases, saving the planet from air pollution.</p>
+          <p>In fact, the US government is aware of that, and will give buyers of electric vehicles up to $7,500 in tax credits.</p>
+          <p>If that's not enough, you may be excited to learn that since electricity is also cheaper than gas, you will be saving hundreds of dollars on gas every month by driving
+          an electric vehicle. Maintenance, too, is significantly cheaper for electric cars than more conventional vehicles - and our high-quality customer care will insure you get an
+          outstanding experience.</p>
+          <p>Public charging stations for electric vehicles are becoming increasingly common as more EVs cruise the streets. Moreover, you could even go solar and produce your own
+          electricity for your car, further cutting your costs.</p>
     </div>
+    <img id="" class="col-6" src="../pics/McKinney-Boyd.jpg" style="" width="400px">
+
   </div>
 
-<div id="section3" class="container-fluid bg-light py-5" style="height:115vh">
-  <div class="aniview" data-av-animation="fadeInRight">
-    <h1>About Us</h1>
 
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
+<div id="section3" class="text-right bg-light container-fluid p-5" style="height:100vh">
+  <h1>About Us</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
 
-<div id="section4" class="container-fluid bg-primary  py-5" style="height:115vh">
-  <div class="aniview" data-av-animation="fadeInRight">
-    <h1>Section 3</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  </div>
+<div id="section4" class="container-fluid bg-primary p-5" style="height:100vh">
+  <h1>Our Bestsellers</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
 
 
@@ -126,7 +108,13 @@
 
 
     <style>
-
+    .container-fluid {
+        padding-right:0;
+        padding-left:0;
+        margin-right:auto;
+        margin-left:auto
+     }
+     
     .navbg{
       background-color: white;
 
@@ -259,6 +247,8 @@
 
 
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
