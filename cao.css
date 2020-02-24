@@ -56,14 +56,14 @@ td:hover a{
   font-weight: normal;
   font-size: 1.3em;
   text-align: left;
-  width: 50vw;
+  /* width: 50vw; */
   padding: 5vh;
   background-color: rgb(0,0,77,50%)
 }
 
 .clubMeetingInfo{
-  float: right;
-  width: 20vw;
+  /* float: right; */
+  /* width: 20vw; */
 }
 
 .clubinblue{
