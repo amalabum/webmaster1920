@@ -1,6 +1,7 @@
 @import "CTE.css";
 #section1{
-  background: url("pics/gym.png") no-repeat center center;
+  background: url("pics/gym.png");
+  background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
   background-attachment: fixed;
@@ -46,19 +47,33 @@ td:hover a{
   font-size: 35px;
   text-align: left;
   margin-bottom: 5vh;
+  margin-top: 0%;
 }
 
 .clubSectionText{
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 20vh;
+  margin-bottom: 13vh;
   font-family: 'open-sans', sans-serif;
   font-weight: normal;
   font-size: 1.3em;
   text-align: left;
   /* width: 50vw; */
   padding: 5vh;
-  background-color: rgb(0,0,77,50%)
+  /* background-color: rgb(0,0,77,50%) */
+}
+.clubSectionText1{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 13vh;
+  font-family: 'open-sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  text-align: left;
+  float: right;
+  /* width: 50vw; */
+  padding: 5vh;
+  /* background-color: rgb(0,0,77,50%) */
 }
 
 .clubMeetingInfo{
@@ -67,10 +82,34 @@ td:hover a{
 }
 
 .clubinblue{
-  background-color: rgb(0,0,77);
+  background-color: rgb(0,0,77,.4);
   color: white;
 }
-
-.clubinblue .clubSectionText{
-  background-color: rgb(250,250,250,30%)
+.clubinwhite{
+  background-color: rgb(255,255,255,.4);
+  color: black;
+}
+.scienceclub{
+  background: url("pics/Working 4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.piclub {
+  background: url("pics/Working 5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.roboticsclub{
+  background: url("pics/Working.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.stemclub {
+  background: url("pics/Working 3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }

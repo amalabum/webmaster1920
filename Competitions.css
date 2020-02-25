@@ -1,14 +1,17 @@
-@import "TSA.css";
+@import "CTE.css";
 html{
   width: 100%;
 }
-#pic{
-  font-family: 'Montserrat', sans-serif;;
-  color: white;
-  font-weight: 800;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
+#section1{
+  background: url("pics/shoes.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+header{
+  font-size: 15em;
+  text-shadow: none;
 }
 
 td{
