@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SLEEK</title>
+    <title>ABOUT US</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="import" href="index.js">
     <script src="js/index.js"></script>
@@ -21,7 +21,7 @@
   </head>
 
   <body class="bg-dark" data-spy="scroll" data-target=".scrollLevel">
-    <nav id="navbar" class=" navbar bg-none navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
+    <nav id="navbar" class=" navbar bg-light navbar-expand-sm mb-1 sticky-top navbar-light justify-content-end ">
       <a id="logoNav" class="navbar-brand ml-2 p-0 mx-auto mx-md-0" href="#">
           <img src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/pics/PNG/logoAlone.png" style="width:110px"alt="">
         </a>
@@ -32,7 +32,7 @@
     <ul class="navbar-nav">
       <li><a class="nav-item nav-link active mx-1" href="">HOME <span class="sr-only">(current)</span></a></li>
       <li><a class="nav-item nav-link mx-1" href="">ABOUT</a></li>
-      <li class="nav-item dropdown bg-none"><a id="vehicleDrop" class=" nav-link mx-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">VEHICLES</a>
+      <li class="nav-item dropdown "><a id="vehicleDrop" class=" nav-link mx-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">VEHICLES</a>
         <div id="dropMenu"class="dropdown-menu" aria-labelledby="vehicleDrop">
           <a class="dropdown-item " href="#">CARS</a>
           <a class="dropdown-item " href="#">BIKES</a>
@@ -57,19 +57,19 @@
   </div>
 
 -->
-  <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 border border-white container py-5 mb-4">
-    <div class="d-none d-sm-block py-5 my-4"> </div>
+  <div id="titleSection" class="mt-sm-1 col-11 col-sm-11 container py-5 mb-4">
+    <div class="text-center  col-12 ">
+      <h2 id="titleText" class=" pb-5 my-2 char text"> <i>MCKINNEY BOYD TSA</i> </h2>
+    </div>
+    <div class="d-none d-md-block py-5 my-4"> </div>
 
-      <div class="text-center  col-12 ">
-        <h2 id="text" class=" my-2 char text"> <i>S L E E K</i> </h2>
-      </div>
-      <div class="my-1 mx-auto  col-md-12 ">
-        <h3 class="bg-transparent text-white p-3 text-center lead"> cool filler one liner</h3>
+
+      <div class="my-1 mx-auto col-md-12 ">
       </div>
       <div class="py-2 my-2 d-none d-sm-block"> </div>
       <div class="py-2 my-2 d-none d-xl-block"> </div>
       <div class="py-1 my-1 d-none d-xs-block"> </div>
-      <div class="py-4 my-4 d-none d-sm-block"> </div>
+      <div class="py-1 my-4 d-none d-sm-block"> </div>
 
   </div>
 
@@ -87,7 +87,7 @@
       <br><br><br><br>
     </div>
     <div class="aniview col-12 col-md-8 col-lg-6 m-1 " data-av-animation="fadeIn">
-      <h1 class="my-3 smoothAni">Why Electric?</h1>
+      <h1 class="my-3 smoothAni">Our Story</h1>
       <div class="container-fluid m-5 p-5 d-none d-sm-block d-md-none">
         <br><br><br><br>
       </div>
@@ -162,6 +162,10 @@
 
     <style>
 
+      .btn-purp {
+          background-color: #A7BADB;
+
+      }
     .smoothAni  {
         animation-duration: 2s;
     }
@@ -178,6 +182,9 @@
       /* Smallest Bootstrap Sizing and Up */
 
           @media (min-width: 0px) {
+        #titleText{
+          font-size:32px;
+        }
         .secText {
           font-size:13px;
         }
@@ -189,7 +196,10 @@
         }
       }
 
-      @media (min-width: 330px; max-width: 768px) {
+      @media (min-width: 330px) {
+        #titleText{
+          font-size:80px;
+        }
     .secImg {
       margin-top: 5vh;
       max-width: 275px;
@@ -239,12 +249,12 @@
     }
 
         body{
-         background: url('') top right no-repeat fixed;
+         background: url('pics/PNG/Webmaster1.jpg') top center fixed;
           left: 0;
+
           background-position:center-top;
           background-repeat: no-repeat;
-          overflow-x: visible;
-
+          background-size: cover;
         }
 
                 @keyframes change {
@@ -315,14 +325,12 @@
                         opacity: 0;
                         color: black;
                         transform: translateY(150px) ;
-                      /*  transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
-*/
+
                     }
                     to{
                         opacity: 1;
                         color:black;
-                      /*  transform: perspective(500px) translate3d(0, 0, 0);
-*/
+
                         transform: translateY(0px) ;
 
                     }
