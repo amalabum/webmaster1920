@@ -1,6 +1,43 @@
-@import "index.css";
+@import "CTE.css";
 html{
-
+}
+table{
+  width: 100vw;
+  text-align: center;
+  padding-left: 20vw;
+  padding-right: 10vw;
+}
+td{
+  width: 33vw;
+  color:white;
+}
+#section1{
+  background: url("pics/Mr Rance.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+#section2{
+  background: url("pics/President 2.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+#section3{
+  background: url("pics/Vice President.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
+}
+#section4{
+  background: url("pics/Officers.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  height: 100%;
 }
 header{
   padding-top: 22%;
