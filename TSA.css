@@ -18,6 +18,10 @@ header{
   display: block;
   text-shadow: 0 0;
 }
+.container{
+  height: 100vh;
+  display: block;
+}
 #section1{
   background: url("pics/hour-of-code.png") no-repeat center center;
   background-size: cover;
@@ -99,7 +103,7 @@ table {
 {
   background-color: #00004d;
   width: 30%;
-  height:95%;
+  height:65%;
   color: white;
   font-weight: normal;
 }

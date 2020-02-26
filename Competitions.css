@@ -13,7 +13,201 @@ header{
   font-size: 15em;
   text-shadow: none;
 }
-
+.comp{
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  padding-right: 12vh;
+  padding-left: 2vh;
+}
+table{
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  padding-right: 12vh;
+  padding-left: 2vh;
+  margin: 1%;
+  margin-bottom: 0%;
+}
 td{
-  padding-bottom: 20px;
+  width: 33vw;
+  height:40vh;
+  padding:0;
+}
+.one{
+  background: url("pics/IMG_3231.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.one:hover{
+  background: url("pics/black.jpg");
+}
+.heading{
+  font-size: 1.3em;
+  text-align: center;
+  height: 100%;
+  color: white;
+  display: block;
+}
+.description{
+  color:white;
+  display: none;
+}
+.one:hover .heading{
+  display: none;
+}
+.one:hover .description{
+  display: block;
+}
+.one{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.one:hover{
+  background: url("pics/black.jpg");
+}
+.one:hover .heading{
+  display: none;
+}
+.one:hover .description{
+  display: block;
+}
+
+.two{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.two:hover{
+  background: url("pics/black.jpg");
+}
+.two:hover .heading{
+  display: none;
+}
+.two:hover .description{
+  display: block;
+}
+
+.thr{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.thr:hover{
+  background: url("pics/black.jpg");
+}
+.thr:hover .heading{
+  display: none;
+}
+.thr:hover .description{
+  display: block;
+}
+
+.four{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.four:hover{
+  background: url("pics/black.jpg");
+}
+.four:hover .heading{
+  display: none;
+}
+.four:hover .description{
+  display: block;
+}
+
+.five{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.five:hover{
+  background: url("pics/black.jpg");
+}
+.five:hover .heading{
+  display: none;
+}
+.five:hover .description{
+  display: block;
+}
+
+.six{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.six:hover{
+  background: url("pics/black.jpg");
+}
+.six:hover .heading{
+  display: none;
+}
+.six:hover .description{
+  display: block;
+}
+
+.sev{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.sev:hover{
+  background: url("pics/black.jpg");
+}
+.sev:hover .heading{
+  display: none;
+}
+.sev:hover .description{
+  display: block;
+}
+
+.eig{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.eig:hover{
+  background: url("pics/black.jpg");
+}
+.eig:hover .heading{
+  display: none;
+}
+.eig:hover .description{
+  display: block;
+}
+
+.nine{
+  background: url("pics/IMG_3231.jpg.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+}
+.nine:hover{
+  background: url("pics/black.jpg");
+}
+.nine:hover .heading{
+  display: none;
+}
+.nine:hover .description{
+  display: block;
 }
