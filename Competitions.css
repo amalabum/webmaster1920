@@ -46,10 +46,15 @@ td{
   color:white;
   display: none;
 }
+
 .comp {
+  background: url("pics/IMG_3231.jpg");
+  background-size: cover;
   opacity:.75;
   height: 100%;
   color:white;
+  padding: 0;
+  margin:0;
 }
 .comp:hover{
   background: url("pics/black.jpg");
@@ -61,47 +66,154 @@ td{
   display: block;
 }
 
-.one{
+.comp1 {
+  background: url("pics/Video Game Design.jpg");
+  background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp1:hover{
+  background: url("pics/black.jpg");
+}
+.comp1:hover .heading{
+  display: none;
+}
+.comp1:hover .description{
+  display: block;
+}
+
+.comp2 {
   background: url("pics/Braxton.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp2:hover{
+  background: url("pics/black.jpg");
+}
+.comp2:hover .heading{
+  display: none;
+}
+.comp2:hover .description{
+  display: block;
 }
 
-.two{
-  background-color: pink;
+.comp3 {
+  background: url("pics/Braxton.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp3:hover{
+  background: url("pics/black.jpg");
+}
+.comp3:hover .heading{
+  display: none;
+}
+.comp3:hover .description{
+  display: block;
 }
 
-.thr{
-  background: url("pics/IMG_3231.jpg.jpg");
+.comp4 {
+  background: url("pics/Braxton.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp4:hover{
+  background: url("pics/black.jpg");
+}
+.comp4:hover .heading{
+  display: none;
+}
+.comp4:hover .description{
+  display: block;
 }
 
-.four{
-  background: url("pics/IMG_3231.jpg.jpg");
+.comp5 {
+  background: url("pics/Braxton.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp5:hover{
+  background: url("pics/black.jpg");
+}
+.comp5:hover .heading{
+  display: none;
+}
+.comp5:hover .description{
+  display: block;
 }
 
-.five{
-  background: url("pics/IMG_3231.jpg.jpg");
+.comp6 {
+  background: url("pics/Software-Development.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp6:hover{
+  background: url("pics/black.jpg");
+}
+.comp6:hover .heading{
+  display: none;
+}
+.comp6:hover .description{
+  display: block;
 }
 
-.six{
-  background: url("pics/IMG_3231.jpg.jpg");
+.comp7 {
+  background: url("pics/Braxton.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
+}
+.comp7:hover{
+  background: url("pics/black.jpg");
+}
+.comp7:hover .heading{
+  display: none;
+}
+.comp7:hover .description{
+  display: block;
 }
 
-.sev{
-  background: url("pics/IMG_3231.jpg.jpg");
+.comp8 {
+  background: url("pics/Braxton.jpg");
   background-size: cover;
+  opacity:.75;
+  height: 100%;
+  color:white;
+  padding: 0;
+  margin:0;
 }
-
-.eig{
-  background: url("pics/IMG_3231.jpg.jpg");
-  background-size: cover;
+.comp8:hover{
+  background: url("pics/black.jpg");
 }
-
-.nine{
-  background: url("pics/IMG_3231.jpg.jpg");
-  background-size: cover;
+.comp8:hover .heading{
+  display: none;
+}
+.comp8:hover .description{
+  display: block;
 }
