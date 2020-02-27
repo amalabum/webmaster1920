@@ -1,0 +1,93 @@
+@import "classes.css";
+#section1{
+  background: url("pics/somepics/meeting_room.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#half{
+  background-color: rgba(51, 50, 50, 0.5);
+  margin: 0px;
+}
+
+@media screen and (min-width: 800px) {
+  #half{
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+#one{
+  background: url("pics/CTE-pics/Ag-pics/pic1.jpg") center center;
+  width: 40vw;
+  height:30vh;
+  padding:0;
+  margin:0;
+}
+
+#one:hover{
+  background: url("pic/CTE-pics/black.jpg") center center;
+  width: 40vw;
+  height:30vh;
+  padding:0;
+  margin:0;
+}
+
+#two{
+  background: url("pics/CTE-pics/Ag-pics/pic2.jpg") center center;
+}
+
+#two:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#thr{
+  background: url("pics/goat.png") center center;
+}
+
+#thr:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#fou{
+  background: url("pics/CTE-pics/Ag-pics/pic4.jpg") center center;
+}
+
+#fou:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#fiv{
+  background: url("pics/CTE-pics/Ag-pics/pic5.jpg") center center;
+}
+
+#fiv:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#six{
+  background: url("pics/CTE-pics/Ag-pics/pic6.jpg") center center;
+}
+
+#six:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#sev{
+  background: url("pics/CTE-pics/Ag-pics/pic7.jpg") center center;
+}
+
+#sev:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#eig{
+  background: url("pics/CTE-pics/Ag-pics/pic8.jpg") center center;
+}
+
+#eig:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}

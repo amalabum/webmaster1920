@@ -1,0 +1,109 @@
+@import "CTE.css";
+header{
+  color: white;
+  font-size: 72px;
+  padding-top: 1vw;
+  padding-top: 22vh;
+  /* font-family: 'Oswald', sans-serif; */
+  font-size: 6em;
+}
+img{
+  padding-right: .75vw;
+}
+
+.ClassList{
+  background-color: white;
+  margin-right: 0px;
+}
+
+.ClassList .title{
+  font-size: 2em;
+  color: #8e1e00;
+}
+
+.class{
+  /*background-color: #ff6961;*/
+  margin-bottom: 1vw;
+  margin: 1vw;
+  width: 40vw;
+  height:30vh;
+  display: inline-flex;
+  /* min-height: 280px; */
+  /*padding: 20px;*/
+}
+
+.class .heading{
+  font-size: 1.3em;
+  text-align: center;
+  padding: 30px;
+  padding-right: 15px;
+  color: white;
+  display: block;
+
+  /*vertical-align: text-bottom;*/
+  /*background-color: #8e1e00;*/
+}
+
+
+.class .description{
+  padding: 0;
+  color:white;
+  display: none;
+}
+
+.class:hover .description{
+  display: block;
+}
+
+.class:hover .heading{
+  display: none;
+}
+
+.Teacher{
+  width: 90%;
+  background-color: #7fa7ff;
+  /*margin-top: 40px;*/
+  padding: 2.5%;
+  width: 33%;
+  padding-right: 3.5%;
+
+}
+
+.Teacher .title{
+  font-size: 1.7em;
+}
+
+/*@media min-width*/
+
+@media only screen and (max-width: 1000px){
+  .class{
+    display: block;
+    width: 90%;
+  }
+}
+
+.End{
+  margin-top: 20px;
+  /*background-color: white;*/
+  padding: 0%;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  text-align: center;
+}
+
+.Career{
+  background-color: white;
+  padding: 2.5%;
+  width: 34%;
+}
+
+.Career .title{
+  color: #8e1e00;
+  font-size: 1.5em;
+}
+
+
+.bottomthing{
+  display: inline-flex;
+}
