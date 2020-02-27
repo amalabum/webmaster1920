@@ -49,6 +49,10 @@ img{
   padding: 0;
   color:white;
   display: none;
+  width: 40vw;
+  height:30vh;
+  padding:0;
+  margin:0;
 }
 
 .class:hover .description{
@@ -83,11 +87,9 @@ img{
 }
 
 .End{
-  margin-top: 20px;
-  /*background-color: white;*/
   padding: 0%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 15vh;
+  /*background-color: white;*/
   color: white;
   text-align: center;
 }
