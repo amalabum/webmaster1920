@@ -102,7 +102,7 @@
   </div>
 
 -->
-<h3 class="text-center pt-3">New Releases</h3>
+<h3 class="text-center py-3 bg-white mt-2 ">New Releases</h3>
 
 <div id="newVehicleSection" class="mx-auto py-4 justify-content-center col-12 container-fluid row bg-dark aniview smoothAni" data-av-animation="fadeIn">
 
@@ -128,8 +128,8 @@
 
 </div>
 
-  <div id="vehicleSection" class="p-3 bg-warning ">
-    <h2 class="text-center py-2">Vehicles Overview</h2>
+  <div id="vehicleSection" class="p-3 border">
+    <h2 class="text-center py-2 bg-light">Vehicles Overview</h2>
 
     <ul class="nav nav-pills justify-content-center d-md-none pb-2">
         <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
@@ -147,12 +147,12 @@
 
 
 
-          <div class="tab-content col bg-primary p-1" >
-            <div id="start" class="tab-pane active m-2 bg-secondary ">
-              <h3 class="px-3">Our Vehicles</h3>
+          <div class="tab-content col bg-secondary p-1" >
+            <div id="start" class="tab-pane active m-2 bg-light ">
+              <h3 class="px-3 ">Our Vehicles</h3>
               <p class="px-3">We at SLEEK own electric versions of cars, and mopeds! Learn more about them by pressing on the tabs.</p>
 
-<div class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
+<div class="vehicleCon container row justify-content-center  m-0 mx-auto px-auto overflow-auto" >
 
               <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
                 <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
@@ -201,10 +201,11 @@
 </div>
 
             </div>
-            <div id="carsSec" class="tab-pane fade m-2 px-3">
+            <div id="carsSec" class="tab-pane bg-light fade m-2 px-3">
               <h3>Cars</h3>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
+              <a href="#" class="btn btn-lg gen-btn-purp text-white mb-2 ">Learn More</a>
+              <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
 
                             <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
                               <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
@@ -238,10 +239,12 @@
 
             </div>
 
-            <div id="bikesSec" class="tab-pane fade m-2 px-3">
+            <div id="bikesSec" class="tab-pane bg-light fade m-2 px-3">
               <h3>Bikes</h3>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-              <div class="vehicleCon container row justify-content-center bg-warning m-0 mx-auto px-auto overflow-auto" >
+              <p>Sleek bikes are one of a kind and masterfuly made. Their unique feel and smoothness is easily noticeable and clean.</p>
+              <a href="#" class="btn btn-lg gen-btn-purp text-white mb-2 ">Learn More</a>
+
+              <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
 
 
                             <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
@@ -294,7 +297,7 @@
     }
 
     .vehicleCon {
-      height: 65vh;
+      height: 60vh;
       overflow-y: scroll;
       }
 
@@ -324,6 +327,9 @@
       background-color: green;
 
     }
+    .gen-btn-purp {
+              background-color: #A7BADB;
+    }
     .nav-pills .btn-purp .nav-link:not(.active) {
         background-color: inherit;
 
@@ -340,7 +346,7 @@
     }
 
         body{
-         background: url('') top right no-repeat fixed;
+         background: url('pics/SVG/gridAlone.png') top right no-repeat fixed;
           left: 0;
           background-position:center-top;
           background-repeat: no-repeat;
