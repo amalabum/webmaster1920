@@ -1,12 +1,4 @@
 @import "index.css";
-.cred{
-  text-align: center;
-  padding-bottom: 10%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: 'Montserrat', sans-serif;;
-  font-size: 16;
-}
 #section1{
   /* picture of us bowing */
   background: url("pics/Webmaster1.jpg") no-repeat center center;
@@ -21,4 +13,33 @@
   text-align:center;
   letter-spacing: 1.5;
   padding-top: 1;
+
+}
+table{
+  padding-top: 80vh;
+  margin-top: 80vh;
+  border-width: 0;
+  border-spacing: 0em;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border: 0;
+}
+.cred{
+  color: #660000;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;;
+  width: 100vw;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin: 0vw;
+  background-color: rgb(51, 51, 51,.4);
+}
+td{
+  width: 16vw;
+  color: white;
+  border-width: 0;
+  border-spacing: 0em;
+  border: 0;
+  height:25vh;
 }
