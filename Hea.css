@@ -1,0 +1,86 @@
+@import "classes.css";
+#section1{
+  background: url("pics/somepics/meeting_room.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#half{
+  background-color: rgba(51, 50, 50, 0.5);
+  margin: 0px;
+}
+
+@media screen and (min-width: 800px) {
+  #half{
+    width: 100vw;
+    height: 100vh;
+  }
+
+#one{
+  background: url("pics/health.png") center center;
+}
+
+#one:hover{
+  background: url("pic/CTE-pics/black.jpg") center center;
+}
+
+#two{
+  background: url("pics/princ.jpg") center center;
+}
+
+#two:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#thr{
+  background: url("pics/billing.jpg") center center;
+}
+
+#thr:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#fou{
+  background: url("pics/terminology.jpg") center center;
+}
+
+#fou:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#fiv{
+  background: url("pics/medical terminology.jpg") center center;
+}
+
+#fiv:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#six{
+  background: url("pics/sterile.jpg") center center;
+  background-size: 100%;
+}
+
+#six:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#sev{
+  background: url("pics/anatomy.jpg") center center;
+}
+
+#sev:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
+
+#eig{
+  background: url("pics/sport med.jpg") center center;
+  background-size: 100%;
+}
+
+#eig:hover{
+  background: url("pics/CTE-pics/black.jpg") center center;
+}
