@@ -21,6 +21,7 @@
 
 #one{
   background: url("pics/health.png") center center;
+  background-size: 100%;
 }
 
 #one:hover{
@@ -29,6 +30,7 @@
 
 #two{
   background: url("pics/princ.jpg") center center;
+  background-size: 100%;
 }
 
 #two:hover{
@@ -37,6 +39,7 @@
 
 #thr{
   background: url("pics/billing.jpg") center center;
+  background-size: 100%;
 }
 
 #thr:hover{
@@ -45,6 +48,7 @@
 
 #fou{
   background: url("pics/terminology.jpg") center center;
+  background-size: 100%;
 }
 
 #fou:hover{
@@ -53,6 +57,7 @@
 
 #fiv{
   background: url("pics/medical terminology.jpg") center center;
+  background-size: 100%;
 }
 
 #fiv:hover{
@@ -70,6 +75,7 @@
 
 #sev{
   background: url("pics/anatomy.jpg") center center;
+  background-size: 100%;
 }
 
 #sev:hover{

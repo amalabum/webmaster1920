@@ -21,6 +21,7 @@
 
   #one{
     background: url("pics/CTE-pics/IT-pics/1.jpg") center center;
+    background-size: 100%;
   }
 
   #one:hover{
@@ -29,6 +30,7 @@
 
   #two{
     background: url("pics/CTE-pics/IT-pics/2.jpg") center center;
+    background-size: 100%;
   }
 
   #two:hover{
@@ -37,6 +39,7 @@
 
   #thr{
     background: url("pics/CTE-pics/IT-pics/3.jpg") center center;
+    background-size: 100%;
   }
 
   #thr:hover{
@@ -45,6 +48,7 @@
 
   #fou{
     background: url("pics/CTE-pics/IT-pics/4.jpg") center center;
+    background-size: 100%;
   }
 
   #fou:hover{
@@ -53,6 +57,7 @@
 
   #fiv{
     background: url("pics/CTE-pics/IT-pics/5.jpg") center center;
+    background-size: 100%;
   }
 
   #fiv:hover{
@@ -61,6 +66,7 @@
 
   #six{
     background: url("pics/CTE-pics/IT-pics/6.jpg") center center;
+    background-size: 100%;
   }
 
   #six:hover{

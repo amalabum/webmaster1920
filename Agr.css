@@ -21,6 +21,7 @@
 
 #one{
   background: url("pics/CTE-pics/Ag-pics/pic1.jpg") center center;
+  background-size: 100%;
 }
 
 #one:hover{
@@ -29,6 +30,7 @@
 
 #two{
   background: url("pics/CTE-pics/Ag-pics/pic2.jpg") center center;
+  background-size: 100%;
 }
 
 #two:hover{
@@ -37,6 +39,7 @@
 
 #thr{
   background: url("pics/goat.png") center center;
+  background-size: 100%;
 }
 
 #thr:hover{
@@ -45,6 +48,7 @@
 
 #fou{
   background: url("pics/CTE-pics/Ag-pics/pic4.jpg") center center;
+  background-size: 100%;
 }
 
 #fou:hover{
@@ -53,6 +57,7 @@
 
 #fiv{
   background: url("pics/CTE-pics/Ag-pics/pic5.jpg") center center;
+  background-size: 100%;
 }
 
 #fiv:hover{
@@ -61,6 +66,7 @@
 
 #six{
   background: url("pics/CTE-pics/Ag-pics/pic6.jpg") center center;
+  background-size: 100%;
 }
 
 #six:hover{
@@ -69,6 +75,7 @@
 
 #sev{
   background: url("pics/CTE-pics/Ag-pics/pic7.jpg") center center;
+  background-size: 100%;
 }
 
 #sev:hover{
@@ -77,6 +84,7 @@
 
 #eig{
   background: url("pics/CTE-pics/Ag-pics/pic8.jpg") center center;
+  background-size: 100%;
 }
 
 #eig:hover{
