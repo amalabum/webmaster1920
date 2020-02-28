@@ -1,0 +1,84 @@
+@import "classes.css";
+#section1{
+  background: url("pics/somepics/santiago_formento_working.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#half{
+  background-color: rgba(51, 50, 50, 0.5);
+  margin: 0px;
+}
+
+@media screen and (min-width: 800px) {
+  #half{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #one{
+    background: url("pics/CTE-pics/Math-pics/1.jpg") center center;
+  }
+
+  #one:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #two{
+    background: url("pics/CTE-pics/Math-pics/2.jpg") center center;
+  }
+
+  #two:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #thr{
+    background: url("pics/CTE-pics/Math-pics/3.jpg") center center;
+  }
+
+  #thr:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #fou{
+    background: url("pics/CTE-pics/Math-pics/4.jpg") center center;
+  }
+
+  #fou:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #fiv{
+    background: url("pics/CTE-pics/Math-pics/5.jpg") center center;
+  }
+
+  #fiv:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #six{
+    background: url("pics/CTE-pics/Math-pics/6.jpg") center center;
+  }
+
+  #six:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #sev{
+    background: url("pics/CTE-pics/Math-pics/7.jpg") center center;
+  }
+
+  #sev:hover{
+    background: url("pics/CTE-pics/black.jpg") center center;
+  }
+
+  #eig{
+    background: url("pics/CTE-pics/Math-pics/8.jpg") center center;
+  }
+
+  #eig:hover{
+    background: url("pics/Math-pics/re.jpg") center center;
+  }
