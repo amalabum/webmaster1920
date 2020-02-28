@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<link rel="import" href="index.js">
+<script src=""></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CARS</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.aniview.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script>
+      $(document).ready(function(){
+        $('.aniview').AniView();
+      });
+    </script>
+  </head>
+
+  <body class="bg-light" data-spy="scroll" data-target=".scrollLevel">
+    <nav id="navbar" class=" navbar bg-light navbar-expand-sm sticky-top navbar-light justify-content-end ">
+      <a id="logoNav" class="navbar-brand ml-2 p-0 mx-auto mx-md-0" href="#">
+          <img src="pics/PNG/logoAlone.png" style="width:110px"alt="">
+        </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+    <ul class="navbar-nav">
+      <li><a class="nav-item nav-link active mx-1" href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+      <li><a class="nav-item nav-link mx-1" href="about.html">ABOUT</a></li>
+      <li class="nav-item dropdown "><a id="vehicleDrop" class=" nav-link mx-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="vehicles.html">VEHICLES</a>
+        <div id="dropMenu"class="dropdown-menu" aria-labelledby="vehicleDrop">
+          <a class="dropdown-item " href="cars.html">CARS</a>
+          <a class="dropdown-item " href="bikes.html">BIKES</a>
+        </div>
+        </li>
+      <li><a class="nav-item nav-link mx-1" href="../TSA.html">CHAPTER</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="">
+  <div id="mainText" class="container-fluid col-12 row p-3 p-md-5 justify-content-end " style="height:45vw; z-index: 1; position:absolute">
+    <div id="textSec"class="col-6 col-md-6 col-lg-8 float-right my-auto aniview" data-av-animation="fadeIn">
+      <h1 class="my-2 my-md-3 smoothAni secHead">Our Cars</h1>
+      <div class="opac p-3 p-md-4 m-0 text-white">
+      <p class="secText ">
+          You wouldnt download a car wolud you? this isa s l e ek car, basically give us your money
+      </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="displayShow" class="container-fluid bg-none justify-content-center row" style="height: 45vw; z-index:-1">
+      <div class="mx-2 my-auto col-6 col-md-5 col-lg-3">
+        <img id="mainImg"class="ml-3" src="pics/PNG/IMG_3534.jpg" alt="Car" style="width: 45vw">
+      </div>
+        <div class="col">
+      </div>
+      <div class="py-5 my-5 d-none d-md-block"> </div>
+      <div class="py-5 my-5 d-none d-md-block"> </div>
+  </div>
+</div>
+
+
+
+<h3 class="text-center pt-3 bg-white">Models</h3>
+
+<div id="newVehicleSection" class="mx-auto py-4 justify-content-center col-12 container-fluid row bg-dark aniview smoothAni" data-av-animation="fadeIn">
+
+<div class="card col mr-1  col-md-3 col-lg-2 p-0 mx-md-4 text-center " >
+  <h5 class="card-title mt-3 ">Glow-ped 2020</h5>
+
+  <img class="card-img-top mx-auto" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:120px">
+  <div class="card-body p-3">
+    <p class="card-text card-txt">Starting at <b>$40,000</b>: A Clean, Casual Ride</p>
+    <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+  </div>
+</div>
+
+<div class="card col mr-1  col-md-3 col-lg-2 p-0 mx-md-4 text-center" >
+  <h5 class="card-title mt-3">Leafrunner 2020</h5>
+
+  <img class="card-img-top mx-auto" src="pics/PNG/IMG_3534.jpg" alt="Card image cap" style="width:120px">
+  <div class="card-body p-3 mt-4">
+    <p class="card-text card-txt">Starting at <b>$25,000</b>: Quick and Efficient</p>
+    <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+  </div>
+</div>
+
+<div class="card col mr-1  col-md-3 col-lg-2 p-0 mx-md-4 text-center" >
+  <h5 class="card-title mt-3">Leafrunner 2020</h5>
+
+  <img class="card-img-top mx-auto" src="pics/PNG/IMG_3534.jpg" alt="Card image cap" style="width:120px">
+  <div class="card-body p-3 mt-4">
+    <p class="card-text card-txt">Starting at <b>$25,000</b>: Quick and Efficient</p>
+    <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+  </div>
+</div>
+
+</div>
+
+  <div id="vehicleSection" class="p-3 ">
+    <h2 class="text-center py-2 bg-white">Vehicles Overview</h2>
+
+    <ul class="nav nav-pills justify-content-center d-md-none pb-2">
+        <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
+        <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
+        <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#truckSec">Trucks</a></li>
+        <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
+      </ul>
+
+      <div class="col-12 col-md-11 col-lg-10 bg-light border m-2 p-3 mx-auto container row overflow-auto aniview smoothAni" data-av-animation="fadeIn" style="height:90vh">
+        <ul class="nav nav-pills flex-column col-3 col-md-2 col-lg-2 d-none d-md-block">
+            <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
+            <li class="nav-item btn-purp"><a class=" nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
+            <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
+          </ul>
+
+
+
+          <div class="tab-content col bg-secondary p-1" >
+            <div id="start" class="tab-pane active m-2 bg-light ">
+              <h3 class="px-3">Our Vehicles</h3>
+              <p class="px-3">We at SLEEK own electric versions of cars, and mopeds! Learn more about them by pressing on the tabs.</p>
+
+<div class="vehicleCon container row justify-content-center  m-0 mx-auto px-auto overflow-auto" >
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                  <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                  <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                  <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                  <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                  <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+</div>
+
+            </div>
+            <div id="carsSec" class="tab-pane fade m-2 px-3 bg-light">
+              <h3>Cars</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+
+              </div>
+
+            </div>
+
+            <div id="bikesSec" class="tab-pane bg-light fade m-2 px-3">
+              <h3>Bikes</h3>
+              <p>Sleek bikes are one of a kind and masterfuly made. Their unique feel and smoothness is easily noticeable and clean.</p>
+              <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
+
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$4,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+
+                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                              <div class="card-body p-0 m-0">
+                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                              </div>
+                            </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+
+
+  </div>
+
+  <span id="footer" class="d-block px-auto p-3  bg-white">
+    <div class="container mx-auto justify-content-center row">
+
+      <a id="logoFoot" class="p-0 " href="#">
+        <img src="pics/PNG/logoAlone.png" style="width:140px"alt="SLEEK">
+        </a>
+
+        <div class="justify-content-center row mt-2 mx-2"> &nbsp
+        <a class="text-muted my-auto mx-1 "href="">/ &nbsp &nbsp  School Website &nbsp &nbsp /</a>
+        <a class="text-muted my-auto mx-1 "href=""> &nbsp &nbsp TSA Official Website &nbsp &nbsp / </a>
+        <a class="text-muted my-auto mx-1 "href="">&nbsp &nbsp Credits</a>
+        </div>
+
+    </div>
+
+  </span>
+
+
+    <style>
+    /* Smallest Bootstrap Sizing and Up */
+
+        @media (min-width: 0px) {
+
+
+      .secText {
+        font-size:13px;
+        margin: 0;
+        padding: 1px;
+      }
+      .secHead{
+        font-size: 26px;
+      }
+    }
+
+    @media (min-width: 600px) and ( max-width: 768px) {
+      .secHead{
+        font-size: 40px;
+      }
+      .secText {
+        font-size:14px;
+      }
+}
+
+    /* Medium Bootstrap Sizing and Up */
+    @media (min-width: 768px) {
+      .secText {
+        font-size:16px;
+      }
+      .secHead{
+        font-size: 42px;
+      }
+      #textSec{
+        margin-right: 2.5vw;
+      }
+    }
+
+    /* Large Bootstrap Sizing and Up */
+    @media (min-width: 992px) {
+      .secText {
+        font-size:18px;
+      }
+      .secHead{
+        font-size: 54px;
+      }
+      #textSec{
+        margin-right: 1vw;
+      }
+    }
+
+    .smoothAni  {
+        animation-duration: 2s;
+    }
+
+    .vehicleCon {
+      height: 65vh;
+      overflow-y: scroll;
+      }
+
+      .container-fluid {
+          padding-right:0;
+          padding-left:0;
+          margin-right:auto;
+          margin-left:auto
+       }
+
+    .card-head{
+      font-size: 15px;
+    }
+    .card-txt{
+      font-size: 12px;
+    }
+    .nav-item{
+      font-size: 19px;
+    }
+    div.opac {
+              /*setting alpha = 0.8*/
+              background: rgba(5, 5, 5, .80);
+          }
+
+    .navbg{
+      background-color: white;
+
+    }
+    .navbg2{
+      background-color: yellow;
+
+    }
+    .navbg3{
+      background-color: green;
+
+    }
+    .nav-pills .btn-purp .nav-link:not(.active) {
+        background-color: inherit;
+
+    }
+
+    .nav-pills .btn-purp .nav-link {
+        background-color: #A7BADB;
+
+    }
+
+
+    #navbar{
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.03), 0 2px 15px 0 rgba(0, 0, 0, 0.08);
+    }
+
+        body{
+         background: url('pics/SVG/gridAlone.png') top right no-repeat fixed;
+          left: 0;
+          background-position:center-top;
+          overflow-x: visible;
+          background-size: cover;
+        }
+
+                @keyframes change {
+                    from {color: #800800;}
+                    to{color: #ffe7e9;}
+                }
+
+
+        h3{
+          background: none;
+        }
+
+        #mainSection{
+          background-position: top;
+          clip: content-box;
+          background-size:contain;
+          text: black;
+
+        }
+
+        #footer{
+          position: static;
+          width: 100%;
+          bottom: 0;
+        }
+
+        #text{
+          position: relative;
+          font-size: 70px;
+          animation: an 3s ease-out 1 both;
+          display: inline-block;
+        }
+
+
+            @media only screen and (max-width: 575px) {
+              #text{
+                font-size: 25px;
+                position: center;
+              }
+              #text2{
+                font-size: 25px;
+              }
+
+              body{
+                  background-size: 150%;
+
+              }
+
+            }
+
+
+
+        .a {
+          font-size: 19px;
+          animation-name:appear;
+          animation-duration: 3s;
+        }
+
+        .logoNav{
+          animation-name:appear;
+          animation-duration: 3s;
+        }
+
+        @keyframes appear {
+            from {opacity: 0;}
+            to{opacity: 1;}
+        }
+
+
+
+                @-webkit-keyframes an{
+                    from{
+                        opacity: 0;
+                        color: black;
+                        transform: translateY(150px) ;
+
+                    }
+                    to{
+                        opacity: 1;
+                        color:black;
+
+                        transform: translateY(0px) ;
+
+                    }
+
+                }
+
+
+                @-webkit-keyframes fadein { /* Safari and Chrome */
+                    from {
+                        opacity:0;
+                    }
+                    to {
+                        opacity:1;
+                    }
+                }
+
+        </style>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
