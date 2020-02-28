@@ -22,7 +22,7 @@
 
   <body class="bg-light" data-spy="scroll" data-target=".scrollLevel">
     <nav id="navbar" class=" navbar bg-light navbar-expand-sm sticky-top navbar-light justify-content-end ">
-      <a id="logoNav" class="navbar-brand ml-2 p-0 mx-auto mx-md-0" href="#">
+      <a id="logoNav" class="navbar-brand ml-2 p-0 mx-auto mx-md-0" href="index.html">
           <img src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/pics/PNG/logoAlone.png" style="width:110px"alt="">
         </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,11 +34,12 @@
       <li><a class="nav-item nav-link mx-1" href="about.html">ABOUT</a></li>
       <li class="nav-item dropdown active"><a id="vehicleDrop" class=" nav-link mx-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="vehicles.html">VEHICLES</a>
         <div id="dropMenu"class="dropdown-menu" aria-labelledby="vehicleDrop">
+          <a class="dropdown-item " href="vehicles.html">OVERVIEW</a>
           <a class="dropdown-item " href="cars.html">CARS</a>
           <a class="dropdown-item " href="bikes.html">BIKES</a>
         </div>
         </li>
-      <li><a class="nav-item nav-link mx-1" href="../TSA.html">CHAPTER</a></li>
+      <li><a class="nav-item nav-link mx-1" href="https://mbhstsa.ga/">CHAPTER</a></li>
     </ul>
   </div>
 </nav>
@@ -51,14 +52,14 @@
       <div class="opac p-3 p-md-4 m-0 text-white">
       <p class="secText ">
           <h4><b>Performance:</b></h4>
-          <b>Horsepower:</b> 240 HP <br>
-          <b>Top Speed:</b> 140 mph <br>
-          <b>Torque:</b> 94 Nm <br>
+          <b>Horsepower:</b> 190 HP <br>
+          <b>Top Speed:</b> 90 mph <br>
+          <b>Torque:</b> 84 Nm <br>
           <hr class="bg-light">
           <h4><b>Charging:</b></h4>
-          <b>Electric Range:</b> 120 mi <br>
+          <b>Electric Range:</b> 110 mi <br>
           <b>Battery Size:</b> 90 kWh <br>
-          <b>Full Charge Cost:</b> $10.00 <br>
+          <b>Full Charge Cost:</b> $9.00 <br>
 
       </p>
       </div>
@@ -67,7 +68,7 @@
 
   <div id="displayShow" class="container-fluid bg-none justify-content-center row" style="height: 45vw; z-index:-1">
       <div class="mx-2 my-auto col-6 col-md-5 col-lg-3">
-        <img id="mainImg"class="ml-3" src="pics/PNG/IMG_3534.jpg" alt="Car" style="width: 45vw">
+        <img id="mainImg"class="ml-3" src="pics/PNG/placeholder_v2.png" alt="Car" style="width: 45vw">
       </div>
         <div class="col">
       </div>
@@ -95,7 +96,7 @@
 <div class="card col mr-1  col-md-3 col-lg-2 p-0 mx-md-4 text-center" >
   <h5 class="card-title mt-3">Spike 2019</h5>
 
-  <img class="card-img-top mx-auto" src="pics/PNG/IMG_3534.jpg" alt="Card image cap" style="width:120px">
+  <img class="card-img-top mx-auto" src="pics/PNG/placeholder_v2.png" alt="Card image cap" style="width:120px">
   <div class="card-body p-3 mt-4">
     <p class="card-text card-txt">Starting at <b>$7,000</b>: Quick and Efficient</p>
     <a href="#" class="btn btn-sm btn-primary">Learn More</a>
@@ -104,161 +105,159 @@
 
 
 </div>
+<div id="vehicleSection" class="p-3 border">
+  <h2 class="text-center py-2 bg-light">Vehicles Overview</h2>
 
-  <div id="vehicleSection" class="p-3 ">
-    <h2 class="text-center py-2 bg-white">Vehicles Overview</h2>
+  <ul class="nav nav-pills justify-content-center d-md-none pb-2">
+      <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
+      <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
+      <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#truckSec">Trucks</a></li>
+      <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
+    </ul>
 
-    <ul class="nav nav-pills justify-content-center d-md-none pb-2">
-        <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
-        <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
-        <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#truckSec">Trucks</a></li>
-        <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
-      </ul>
-
-      <div class="col-12 col-md-11 col-lg-10 bg-light border m-2 p-3 mx-auto container row overflow-auto aniview smoothAni" data-av-animation="fadeIn" style="height:90vh">
-        <ul class="nav nav-pills flex-column col-3 col-md-2 col-lg-2 d-none d-md-block">
-            <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
-            <li class="nav-item btn-purp"><a class=" nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
-            <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
-          </ul>
-
+    <div class="col-12 col-md-11 col-lg-10 bg-light m-2 p-3 mx-auto container row overflow-auto aniview smoothAni" data-av-animation="fadeIn" style="height:90vh">
+      <ul class="nav nav-pills flex-column col-3 col-md-2 col-lg-2 d-none d-md-block">
+          <li class="nav-item btn-purp"><a class="nav-link active" data-toggle="pill" href="#start">Our Vehicles</a></li>
+          <li class="nav-item btn-purp"><a class=" nav-link" data-toggle="pill" href="#carsSec">Cars</a></li>
+          <li class="nav-item btn-purp"><a class="nav-link" data-toggle="pill" href="#bikesSec">Bikes</a></li>
+        </ul>
 
 
-          <div class="tab-content col bg-secondary p-1" >
-            <div id="start" class="tab-pane active m-2 bg-light ">
-              <h3 class="px-3">Our Vehicles</h3>
-              <p class="px-3">We at SLEEK own electric versions of cars, and mopeds! Learn more about them by pressing on the tabs.</p>
 
+        <div class="tab-content col bg-secondary p-1" >
+          <div id="start" class="tab-pane active m-2 bg-light ">
+            <h3 class="px-3 ">Our Vehicles</h3>
+            <p class="px-3">We at SLEEK own electric versions of cars, and mopeds! Learn more about them by pressing on the tabs.</p>
 
-              <div class="vehicleCon container row justify-content-center  m-0 mx-auto px-auto overflow-auto" >
+<div class="vehicleCon container row justify-content-center  m-0 mx-auto px-auto overflow-auto" >
 
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$4,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Sunrunner 2018</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$19,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Leafrunner 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$25,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Spike 2019</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$7,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Flare 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$22,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
+            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+              <div class="card-body p-0 m-0">
+                <p class="card-text card-txt p-0 m-0">Priced at <b>$4,000</b></p>
+                <a href="vehGlowped.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
               </div>
-
-            </div>
-            <div id="carsSec" class="tab-pane fade m-2 px-3 bg-light">
-              <h3>Cars</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-
-              </div>
-
             </div>
 
-            <div id="bikesSec" class="tab-pane bg-light fade m-2 px-3">
-              <h3>Bikes</h3>
-              <p>Sleek bikes are one of a kind and masterfuly made. Their unique feel and smoothness is easily noticeable and clean.</p>
-              <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
-
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$4,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
-
-                            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
-                              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
-                              <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
-                              <div class="card-body p-0 m-0">
-                                <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
-                                <a href="#" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
-                              </div>
-                            </div>
+            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder3.png" alt="Card image cap" style="width:100px">
+              <h5 class="card-title card-head my-1">Sunrunner 2018</h5>
+              <div class="card-body p-0 m-0">
+                <p class="card-text card-txt p-0 m-0">Priced at <b>$19,000</b></p>
+                <a href="vehSunrunner.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
               </div>
-
             </div>
+
+            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder4.png" alt="Card image cap" style="width:100px">
+              <h5 class="card-title card-head my-1">Leafrunner 2020</h5>
+              <div class="card-body p-0 m-0">
+                <p class="card-text card-txt p-0 m-0">Priced at <b>$25,000</b></p>
+                <a href="vehLeafrunner.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+              </div>
+            </div>
+
+            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+              <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder_v2.png" alt="Card image cap" style="width:100px">
+              <h5 class="card-title card-head my-1">Spike 2019</h5>
+              <div class="card-body p-0 m-0">
+                <p class="card-text card-txt p-0 m-0">Priced at <b>$7,000</b></p>
+                <a href="vehSpike.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+              </div>
+            </div>
+
+            <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center" >
+              <img class="card-img-top mx-auto mt-2" src="pics/PNG/IMG_3534.jpg" alt="Card image cap" style="width:100px">
+              <h5 class="card-title card-head my-1">Flare 2020</h5>
+              <div class="card-body p-0 m-0">
+                <p class="card-text card-txt p-0 m-0">Priced at <b>$22,000</b></p>
+                <a href="vehFlare.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+              </div>
+            </div>
+</div>
+
           </div>
-      </div>
+          <div id="carsSec" class="tab-pane bg-light fade m-2 px-3">
+            <h3>Cars</h3>
+            <p>Sleek cars push the limit on what we think of electric cars. It's charging capabilites are much faster than our competitor's, and is much more efficient.</p>
+            <a href="Cars.html" class="btn btn-lg gen-btn-purp text-white mb-2 ">Learn More</a>
+            <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder3.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Sunrunner 2018</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$19,000</b></p>
+                  <a href="vehSunrunner.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+
+              <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder4.png" alt="Card image cap" style="width:100px">
+                <h5 class="card-title card-head my-1">Leafrunner 2020</h5>
+                <div class="card-body p-0 m-0">
+                  <p class="card-text card-txt p-0 m-0">Priced at <b>$25,000</b></p>
+                  <a href="vehLeafrunner.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                </div>
+              </div>
+
+                          <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                            <img class="card-img-top mx-auto mt-2" src="pics/PNG/IMG_3534.jpg" alt="Card image cap" style="width:100px">
+                            <h5 class="card-title card-head my-1">Flare 2020</h5>
+                            <div class="card-body p-0 m-0">
+                              <p class="card-text card-txt p-0 m-0">Priced at <b>$22,000</b></p>
+                              <a href="vehFlare.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                            </div>
+                          </div>
 
 
+            </div>
+
+          </div>
+
+          <div id="bikesSec" class="tab-pane bg-light fade m-2 px-3">
+            <h3>Bikes</h3>
+            <p>Sleek bikes are one of a kind and masterfuly made. Their unique feel and smoothness is easily noticeable and clean.</p>
+            <a href="bikes.html" class="btn btn-lg gen-btn-purp text-white mb-2 ">Learn More</a>
+
+            <div class="vehicleCon container row justify-content-center m-0 mx-auto px-auto overflow-auto" >
+
+
+                          <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                            <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder.png" alt="Card image cap" style="width:100px">
+                            <h5 class="card-title card-head my-1">Glow-ped 2020</h5>
+                            <div class="card-body p-0 m-0">
+                              <p class="card-text card-txt p-0 m-0">Priced at <b>$16,000</b></p>
+                              <a href="vehGlowped.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                            </div>
+                          </div>
+
+                          <div class="card col-5 mr-1 col-sm-4 col-lg-3 p-0 m-1 text-center h-50" >
+                            <img class="card-img-top mx-auto mt-2" src="pics/PNG/placeholder_v2.png" alt="Card image cap" style="width:100px">
+                            <h5 class="card-title card-head my-1">Spike 2019</h5>
+                            <div class="card-body p-0 m-0">
+                              <p class="card-text card-txt p-0 m-0">Priced at <b>$7,000</b></p>
+                              <a href="vehSpike.html" class="btn btn-sm btn-primary my-2 m-0">Learn More</a>
+                            </div>
+                          </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
   </div>
 
   <span id="footer" class="d-block px-auto p-3  bg-white">
     <div class="container mx-auto justify-content-center row">
 
       <a id="logoFoot" class="p-0 " href="#">
-        <img src="/Users/s129527/Documents/TSAWEB2020/webmaster1920/Sleek/pics/PNG/logoAlone.png" style="width:140px"alt="SLEEK">
+          <img src="pics/PNG/logoAlone.png" style="width:140px"alt="SLEEK">
         </a>
 
         <div class="justify-content-center row mt-2 mx-2"> &nbsp
-        <a class="text-muted my-auto mx-1 "href="">/ &nbsp &nbsp  School Website &nbsp &nbsp /</a>
-        <a class="text-muted my-auto mx-1 "href=""> &nbsp &nbsp TSA Official Website &nbsp &nbsp / </a>
-        <a class="text-muted my-auto mx-1 "href="">&nbsp &nbsp Credits</a>
+        <a class="text-muted my-auto mx-1 "href="https://mbhstsa.ga/">/ &nbsp &nbsp  School Website &nbsp &nbsp /</a>
+        <a class="text-muted my-auto mx-1 "href="https://tsaweb.org/tsa"> &nbsp &nbsp TSA Official Website &nbsp &nbsp  </a>
         </div>
 
     </div>
