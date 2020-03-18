@@ -27,7 +27,7 @@ body{
   text-decoration: none;
 }
 
-.topnav a.active {
+.topnav .active {
   /*background-color: #ffff99;*/
   color: black;
 }
@@ -96,6 +96,12 @@ body{
   display: block;
   float: left;
 }
+.phone{
+  display: none;
+}
+.reg{
+  display: block;
+}
 @media screen and (min-width: 801px){
   .topnav a {
     padding-top: 4vh;
@@ -106,5 +112,8 @@ body{
   .topnav {
     text-align: center;
   }
-
+  .phone{
+    display: block;
+  }
+  .reg{display: none;}
 }
