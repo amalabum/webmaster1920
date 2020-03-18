@@ -13,6 +13,9 @@ body{
   letter-spacing: 1.5;
   font-family: 'Oswald', sans-serif;
   text-align: right;
+  color:white;
+  margin: 0;
+  padding: 0;
 }
 .topnav a {
   float: right;
@@ -21,7 +24,10 @@ body{
   text-decoration: none;
   font-size: 1.375em;
   padding: 2vh;
+  padding-top: .1vh;
+  padding-bottom: .1vh;
 }
+
 .topnav a:hover{
   color:white;
   text-decoration: none;
@@ -35,22 +41,16 @@ body{
 .dropdown {
   float: right;
   overflow: visible;
-  letter-spacing: 1.5;
-  font-family: 'Oswald', sans-serif;
   text-align: right;
+  font-size: 1.25em;
 }
 
 .dropdown .dropbtn {
   border: none;
   outline: none;
   background-color: inherit;
-  color: white;
-  letter-spacing: 1.5;
-  font-family: 'Oswald', sans-serif;
   text-align: right;
-  padding: 2vh;
-  padding-top: .1vh;
-  padding-bottom: .1vh;
+  font-size: 1.25em;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -64,8 +64,9 @@ body{
   display: none;
   position: absolute;
   background-color: rgb(249, 249, 249,.5);
-  min-width: 300px;
+  min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size: .75em;
 }
 
 .dropdown-content .active{
