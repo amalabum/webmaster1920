@@ -91,5 +91,20 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
   float: left;
+}
 
+@media only screen and (max-width: 768px) {
+  .topnav {
+    float: center;
+    text-align: center;
+  }
+  .topnav a {
+    /* float: inherit; */
+    /* display: inline-flex; */
+
+  }
+  .dropdown {
+    float: left;
+    text-align: left;
+  }
 }
