@@ -246,6 +246,8 @@ td{
     margin-right:8vw;
     color: black;
     text-align: left;
+    height: 120vh;
+
   }
   .new{
     display: none;
@@ -253,13 +255,14 @@ td{
   #writingpic{
     background: url("pics/new-pic3.png") no-repeat center center;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     background-attachment:local;
   }
   .transition
   {
-    padding: 2vw;
-    padding-top: 5vw;
-    padding-bottom: 3vw;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
   }
 }

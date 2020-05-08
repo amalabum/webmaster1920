@@ -17,7 +17,7 @@ header{
   display: block;
   padding-top: 65vh;
   text-shadow: 0 0;
-} 
+}
 .LearnMore{
   color: skyblue;
 }
@@ -131,7 +131,7 @@ table {
 }
 @media only screen and (max-width: 768px) {
   #section1{
-    height: 75%;
+    height: 60%;
   }
   header{
     padding: 0;
@@ -176,7 +176,7 @@ table {
   #chapWriting{
     background: url("pics/gym.png") no-repeat center center;
     width:100vw;
-    height:44vh;
+    height:50vh;
     size:cover;
     margin-right:0;
     margin-bottom: 0;
