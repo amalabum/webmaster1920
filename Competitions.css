@@ -35,6 +35,8 @@ td{
   height:40vh;
   padding:0;
   margin: 0;
+  border-spacing: 1em;
+  border-color: white;
 }
 .heading{
   font-size: 1.3em;

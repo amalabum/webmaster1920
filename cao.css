@@ -98,25 +98,26 @@ td:hover a{
   color: black;
 }
 .scienceclub{
-  background: url("pics/Katherine.jpeg");
+  background: url("pics/Katherine.jpeg") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .piclub {
-  background: url("pics/math.jpeg");
+  background: url("pics/math.jpeg") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .roboticsclub{
-  background: url("pics/robot.jpeg");
+  background: url("pics/robot.jpeg") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
 }
 .stemclub {
-  background: url("pics/Working 3.jpg");
+  background: url("pics/Working 3.jpg") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -128,8 +129,17 @@ td:hover a{
   }
   }
 @media only screen and (max-width: 768px) {
+  #section1{
+    background: url("pics/coloring.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+  }
   .head{
-    font-size: .4em;
+    font-size: .7em;
     width: 100%;
     text-align: center;
   }

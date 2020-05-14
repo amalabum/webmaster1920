@@ -16,6 +16,12 @@ body{
   margin:0px;
   /*Fading effect for when home page loads*/
 }
+.phone{
+  display: none;
+}
+.reg{
+  display: block;
+}
 @keyframes fadeInAnimation {
     0% {
       opacity: 0;
@@ -219,6 +225,12 @@ td{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .phone{
+    display: block;
+  }
+  .reg{
+    display: none;
+  }
   [class*="col-"] {
     width: 100%;
   }

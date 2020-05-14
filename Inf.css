@@ -11,13 +11,9 @@
 #half{
   background-color: rgba(51, 50, 50, 0.5);
   margin: 0px;
+  width: 100vw;
+  height: 100vh;
 }
-
-@media screen and (min-width: 800px) {
-  #half{
-    width: 100vw;
-    height: 100vh;
-  }
 
   #one{
     background: url("pics/CTE-pics/IT-pics/1.jpg") center center;
